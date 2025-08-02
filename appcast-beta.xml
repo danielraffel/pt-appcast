@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>PlunderTube Updates</title>
-    <description>PlunderTube stable releases</description>
+    <title>PlunderTube</title>
+    <description>PlunderTube Updates</description>
     <language>en</language>
+    <item>
+      <title>Version 1.1.0555</title>
+      <pubDate>Sat, 02 Aug 2025 06:04:32 +0000</pubDate>
+      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v1.1.0555-dev/PlunderTube.1.1.0555.dmg"
+                 length="180123223"
+                 type="application/octet-stream"
+                 sparkle:version="1.1.0555" />
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## PlunderTube 1.1.0555
+
+### Download
+- **DMG Installer**: PlunderTube.1.1.0555.dmg
+- **PKG Installer**: PlunderTube.1.1.0555.pkg
+
+### What's Included
+- Audio Unit (AU) Plugin
+- VST3 Plugin
+- Standalone Application
+- Automatic Python/UV environment setup
+- FFmpeg and yt-dlp included
+
+### Installation
+1. Download the DMG file
+2. Open and run the PKG installer
+3. Restart your DAW if running
+
+### System Requirements
+- macOS 14.0 or later (ARM64)
+- Compatible DAW for plugin formats
+
+### Release Type: DEV]]></description>
+    </item>
   </channel>
 </rss>
