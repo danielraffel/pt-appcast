@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>PT</title>
-    <description>PT Updates</description>
+    <title>PlunderTube</title>
+    <description>PlunderTube Updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.1.0555</title>
-      <pubDate>Sat, 02 Aug 2025 06:04:32 +0000</pubDate>
-      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v1.1.0555-dev/PlunderTube.1.1.0555.dmg"
-                 length="180123223"
+      <title>Version 1.1.1844</title>
+      <pubDate>Sat, 02 Aug 2025 18:53:05 +0000</pubDate>
+      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v1.1.1844-dev/PlunderTube.1.1.1844.dmg"
+                 length="92046607"
                  type="application/octet-stream"
-                 sparkle:version="1.1.0555" />
+                 sparkle:version="1.1.1844" />
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[## PlunderTube 1.1.0555
+      <description><![CDATA[## PlunderTube 1.1.1844
 
 ### Download
-- **DMG Installer**: PlunderTube.1.1.0555.dmg
-- **PKG Installer**: PlunderTube.1.1.0555.pkg
+- **DMG Installer**: PlunderTube.1.1.1844.dmg
+- **PKG Installer**: PlunderTube.1.1.1844.pkg
 
 ### What's Included
 - Audio Unit (AU) Plugin
