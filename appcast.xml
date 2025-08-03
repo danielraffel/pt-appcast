@@ -5,18 +5,18 @@
     <description>PlunderTube Updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.1.0748</title>
-      <pubDate>Sun, 03 Aug 2025 07:57:28 +0000</pubDate>
-      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v1.1.0748/PlunderTube.1.1.0748.dmg"
-                 length="96192935"
+      <title>Version 1.1.1543</title>
+      <pubDate>Sun, 03 Aug 2025 15:52:39 +0000</pubDate>
+      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v1.1.1543/PlunderTube.1.1.1543.dmg"
+                 length="96208867"
                  type="application/octet-stream"
-                 sparkle:version="1.1.0748" />
+                 sparkle:version="1.1.1543" />
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[## PlunderTube 1.1.0748
+      <description><![CDATA[## PlunderTube 1.1.1543
 
 ### Download
-- **DMG Installer**: PlunderTube.1.1.0748.dmg
-- **PKG Installer**: PlunderTube.1.1.0748.pkg
+- **DMG Installer**: PlunderTube.1.1.1543.dmg
+- **PKG Installer**: PlunderTube.1.1.1543.pkg
 
 ### What's Included
 - Audio Unit (AU) Plugin
