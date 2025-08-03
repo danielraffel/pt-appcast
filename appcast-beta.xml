@@ -5,18 +5,18 @@
     <description>PlunderTube Updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.1.0539</title>
-      <pubDate>Sun, 03 Aug 2025 05:47:44 +0000</pubDate>
-      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v1.1.0539-dev/PlunderTube.1.1.0539.dmg"
-                 length="96190787"
+      <title>Version 1.1.0554</title>
+      <pubDate>Sun, 03 Aug 2025 06:02:32 +0000</pubDate>
+      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v1.1.0554/PlunderTube.1.1.0554.dmg"
+                 length="96192490"
                  type="application/octet-stream"
-                 sparkle:version="1.1.0539" />
+                 sparkle:version="1.1.0554" />
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[## PlunderTube 1.1.0539
+      <description><![CDATA[## PlunderTube 1.1.0554
 
 ### Download
-- **DMG Installer**: PlunderTube.1.1.0539.dmg
-- **PKG Installer**: PlunderTube.1.1.0539.pkg
+- **DMG Installer**: PlunderTube.1.1.0554.dmg
+- **PKG Installer**: PlunderTube.1.1.0554.pkg
 
 ### What's Included
 - Audio Unit (AU) Plugin
@@ -34,7 +34,7 @@
 - macOS 14.0 or later (ARM64)
 - Compatible DAW for plugin formats
 
-### Release Type: DEV]]></description>
+### Release Type: RELEASE]]></description>
     </item>
   </channel>
 </rss>
