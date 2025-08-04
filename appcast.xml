@@ -4,47 +4,7 @@
     <title>PlunderTube</title>
     <description>PlunderTube Updates</description>
     <language>en</language>
-    <item>
-      <title>Version 3.20.0</title>
-      <pubDate>Mon, 04 Aug 2025 20:48:32 +0000</pubDate>
-      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v3.20.0/PlunderTube.3.20.0.dmg"
-                 length="96193215"
-                 type="application/octet-stream"
-                 sparkle:version="3.20.0" />
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>PlunderTube 3.20.0</h2>
-
-<h3>📥 Download</h3>
-<ul>
-  <li><strong>DMG Installer</strong>: PlunderTube.3.20.0.dmg</li>
-  <li><strong>PKG Installer</strong>: PlunderTube.3.20.0.pkg</li>
-</ul>
-
-<h3>📦 What's Included</h3>
-<ul>
-  <li>Audio Unit (AU) Plugin</li>
-  <li>VST3 Plugin</li>
-  <li>Standalone Application</li>
-  <li>Automatic Python/UV environment setup</li>
-  <li>FFmpeg and yt-dlp included</li>
-</ul>
-
-<p>Minor updates and improvements.</p>
-
-<h3>💾 Installation</h3>
-<ol>
-  <li>Download the DMG file</li>
-  <li>Open and run the PKG installer</li>
-  <li>Restart your DAW if running</li>
-</ol>
-
-<h3>⚙️ System Requirements</h3>
-<ul>
-  <li>macOS 14.0 or later (ARM64)</li>
-  <li>Compatible DAW for plugin formats</li>
-</ul>
-
-<p><strong>Release Type:</strong> RELEASE</p>]]></description>
-    </item>
+    <!-- Releases will be added here as they are published -->
+    <!-- Starting fresh from v0.0.1 with conservative semantic versioning -->
   </channel>
 </rss>
