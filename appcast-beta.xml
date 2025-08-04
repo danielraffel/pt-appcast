@@ -5,36 +5,46 @@
     <description>PlunderTube Updates</description>
     <language>en</language>
     <item>
-      <title>Version 3.13.0</title>
-      <pubDate>Mon, 04 Aug 2025 18:32:32 +0000</pubDate>
-      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v3.13.0/PlunderTube.3.13.0.dmg"
-                 length="96194450"
+      <title>Version 3.20.0</title>
+      <pubDate>Mon, 04 Aug 2025 20:48:32 +0000</pubDate>
+      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v3.20.0/PlunderTube.3.20.0.dmg"
+                 length="96193215"
                  type="application/octet-stream"
-                 sparkle:version="3.13.0" />
+                 sparkle:version="3.20.0" />
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[## PlunderTube 3.13.0
+      <description><![CDATA[<h2>PlunderTube 3.20.0</h2>
 
-### Download
-- **DMG Installer**: PlunderTube.3.13.0.dmg
-- **PKG Installer**: PlunderTube.3.13.0.pkg
+<h3>📥 Download</h3>
+<ul>
+  <li><strong>DMG Installer</strong>: PlunderTube.3.20.0.dmg</li>
+  <li><strong>PKG Installer</strong>: PlunderTube.3.20.0.pkg</li>
+</ul>
 
-### What's Included
-- Audio Unit (AU) Plugin
-- VST3 Plugin
-- Standalone Application
-- Automatic Python/UV environment setup
-- FFmpeg and yt-dlp included
+<h3>📦 What's Included</h3>
+<ul>
+  <li>Audio Unit (AU) Plugin</li>
+  <li>VST3 Plugin</li>
+  <li>Standalone Application</li>
+  <li>Automatic Python/UV environment setup</li>
+  <li>FFmpeg and yt-dlp included</li>
+</ul>
 
-### Installation
-1. Download the DMG file
-2. Open and run the PKG installer
-3. Restart your DAW if running
+<p>Minor updates and improvements.</p>
 
-### System Requirements
-- macOS 14.0 or later (ARM64)
-- Compatible DAW for plugin formats
+<h3>💾 Installation</h3>
+<ol>
+  <li>Download the DMG file</li>
+  <li>Open and run the PKG installer</li>
+  <li>Restart your DAW if running</li>
+</ol>
 
-### Release Type: RELEASE]]></description>
+<h3>⚙️ System Requirements</h3>
+<ul>
+  <li>macOS 14.0 or later (ARM64)</li>
+  <li>Compatible DAW for plugin formats</li>
+</ul>
+
+<p><strong>Release Type:</strong> RELEASE</p>]]></description>
     </item>
   </channel>
 </rss>
