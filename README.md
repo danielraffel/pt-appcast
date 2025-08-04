@@ -11,7 +11,6 @@
 
 ## Version History
 
-Starting fresh from v0.0.1 with conservative semantic versioning:
 - **Patch** (0.0.X): Bug fixes, small improvements
 - **Minor** (0.X.0): New features (requires explicit tagging or 3+ feature commits)
 - **Major** (X.0.0): Breaking changes (requires explicit tagging)
