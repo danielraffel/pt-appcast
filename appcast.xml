@@ -5,19 +5,19 @@
     <description>PlunderTube Updates</description>
     <language>en</language>
     <item>
-      <title>Version 0.23.16</title>
+      <title>Version 0.0.0</title>
       <pubDate>Wed, 06 Aug 2025 02:38:13 +0000</pubDate>
-      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v0.23.16/PlunderTube.0.23.16.dmg"
+      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v0.0.16/PlunderTube.0.0.0.dmg"
                  length="96195636"
                  type="application/octet-stream"
-                 sparkle:version="0.23.16" />
+                 sparkle:version="0.0.0" />
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>PlunderTube 0.23.16</h2>
+      <description><![CDATA[<h2>PlunderTube 0.0.0</h2>
 
 <h3>📥 Download</h3>
 <ul>
-  <li><strong>DMG Installer</strong>: PlunderTube.0.23.16.dmg</li>
-  <li><strong>PKG Installer</strong>: PlunderTube.0.23.16.pkg</li>
+  <li><strong>DMG Installer</strong>: PlunderTube.0.0.0.dmg</li>
+  <li><strong>PKG Installer</strong>: PlunderTube.0.0.0.pkg</li>
 </ul>
 
 <h3>📦 What's Included</h3>
