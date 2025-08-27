@@ -5,19 +5,19 @@
     <description>PlunderTube Updates</description>
     <language>en</language>
     <item>
-      <title>Version 0.0.0</title>
-      <pubDate>Wed, 06 Aug 2025 02:38:13 +0000</pubDate>
-      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v0.0.0/PlunderTube.0.0.0.dmg"
-                 length="96195636"
+      <title>Version 0.0.143</title>
+      <pubDate>Wed, 27 Aug 2025 23:57:47 +0000</pubDate>
+      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v0.0.143/PlunderTube.0.0.143.dmg"
+                 length="344593452"
                  type="application/octet-stream"
-                 sparkle:version="0.0.0" />
+                 sparkle:version="0.0.143" />
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>PlunderTube 0.0.0</h2>
+      <description><![CDATA[<h2>PlunderTube 0.0.143</h2>
 
 <h3>📥 Download</h3>
 <ul>
-  <li><strong>DMG Installer</strong>: PlunderTube.0.0.0.dmg</li>
-  <li><strong>PKG Installer</strong>: PlunderTube.0.0.0.pkg</li>
+  <li><strong>DMG Installer</strong>: PlunderTube.0.0.143.dmg</li>
+  <li><strong>PKG Installer</strong>: PlunderTube.0.0.143.pkg</li>
 </ul>
 
 <h3>📦 What's Included</h3>
@@ -25,11 +25,23 @@
   <li>Audio Unit (AU) Plugin</li>
   <li>VST3 Plugin</li>
   <li>Standalone Application</li>
+  <li>PlunderTube Diagnostics Tool</li>
   <li>Automatic Python/UV environment setup</li>
   <li>FFmpeg and yt-dlp included</li>
 </ul>
 
-<p>Minor updates and improvements.</p>
+# Release Notes for Version 0.0.143</h2></h3>
+
+<h2>Features
+<ul>
+<li>**Initial Release**: Introduced the foundational version of the application, providing users with a base set of functionalities.</h2></h3></li>
+
+<h2>Improvements
+<li>Enhanced user interface for a more intuitive experience.</h2></h3></li>
+
+<h2>Fixes
+<li>Resolved minor bugs to improve overall application stability.</li>
+</ul>
 
 <h3>💾 Installation</h3>
 <ol>
