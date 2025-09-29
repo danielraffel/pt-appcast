@@ -5,17 +5,17 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.205</title>
-      <sparkle:version>0.1.205</sparkle:version>
-      <sparkle:shortVersionString>0.1.205</sparkle:shortVersionString>
+      <title>Version 0.1.210</title>
+      <sparkle:version>0.1.210</sparkle:version>
+      <sparkle:shortVersionString>0.1.210</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Mon, 29 Sep 2025 10:25:28 -0700</pubDate>
+      <pubDate>Mon, 29 Sep 2025 11:38:06 -0700</pubDate>
       <enclosure 
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.205/PlunderTube_0.1.188.dmg"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.210/PlunderTube_0.1.210.dmg"
         sparkle:edSignature=""
-        length="91187107"
+        length="91186359"
         type="application/octet-stream" />
-      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.1.205</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.1.210</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
