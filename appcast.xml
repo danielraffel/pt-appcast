@@ -8,16 +8,14 @@
       <title>Version 0.1.230</title>
       <description><![CDATA[
         <h2>What's New in 0.1.230</h2>
-        <div># Release Notes for Version 0.1.230
-
-<h3>Features</h3>
-<li>Initial release with foundational capabilities.</li>
-
-<h3>Fixes</h3>
-<li>None reported in this release.</li>
-
-<h3>Improvements</h3>
-<li>None reported in this release.</li></div>
+        <div>
+          <h3>Improvements</h3>
+          <ul>
+            <li>Smart update detection: automatically chooses DMG or PKG based on what changed</li>
+            <li>DMG updates for seamless app-only updates</li>
+            <li>PKG updates when dependencies (scripts/binaries) change</li>
+          </ul>
+        </div>
         <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.1.230">View full release notes</a></p>
       ]]></description>
       <sparkle:version>485</sparkle:version>
@@ -25,9 +23,9 @@
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
       <pubDate>Mon, 29 Sep 2025 16:56:14 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.230/PlunderTube_0.1.230.pkg"
-        sparkle:edSignature="seaQ6zig1bP7AVAZxGPyP1a0CB8oDu38XAdxnE+xCAvdVpo69Y8esPER+NOPV/JmUIvq3W4wQaHddhN2X6pmCw=="
-        length="90810712"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.230/PlunderTube_0.1.230.dmg"
+        sparkle:edSignature="zAycCsYlEXd8Tp32j3hvKW4oghfUwfKrmJB5kllX2/y64aHT9UTwHf49W6EfyRHnyr+lF2FWLZnM3bq8p+BEDg=="
+        length="12709325"
         type="application/octet-stream" />
       <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.1.230</sparkle:releaseNotesLink>
     </item>
