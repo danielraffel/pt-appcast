@@ -5,34 +5,34 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.226</title>
+      <title>Version 0.1.227</title>
       <description><![CDATA[
-        <h2>What's New in 0.1.226</h2>
-        <p>[0;32mGenerating release notes for version 0.1.226...[0m
+        <h2>What's New in 0.1.227</h2>
+        <p>[0;32mGenerating release notes for version 0.1.227...[0m
 🤖 Attempting AI-enhanced release notes...
 ✅ AI-enhanced release notes generated
-# Release Notes for Version 0.1.226
+# Release Notes for Version 0.1.227
 
 ## Features
-- **Initial Release**: Introducing the first version of the application, bringing core functionalities to users.
-
-## Improvements
-- Overall performance enhancements for a smoother user experience.
+- Initial release of the application with core functionalities.
 
 ## Fixes
-- Resolved minor bugs to ensure stability and reliability of the application.</p>
-        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.1.226">View full release notes</a></p>
+- None in this version.
+
+## Improvements
+- Established a solid foundation for future enhancements and features.</p>
+        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.1.227">View full release notes</a></p>
       ]]></description>
-      <sparkle:version>481</sparkle:version>
-      <sparkle:shortVersionString>0.1.226</sparkle:shortVersionString>
+      <sparkle:version>482</sparkle:version>
+      <sparkle:shortVersionString>0.1.227</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Mon, 29 Sep 2025 16:03:39 -0700</pubDate>
+      <pubDate>Mon, 29 Sep 2025 16:14:22 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.226/PlunderTube_0.1.226.dmg"
-        sparkle:edSignature="TzJBIzEUpLcNozNq2gNLWlWFWFDSPRmhlJDcPxXEULhbpcJgjLicqALc8SeygQruVBAz/mis4N+lhtYGEbJrDA=="
-        length="92235887"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.227/PlunderTube_0.1.227.dmg"
+        sparkle:edSignature="TMTAhcP19zqhTpUfuUn063DxNDL3kx2oeDk2CUzeQaJnRoND3ZgtJw9Hzd9eJ8kGYpxVEi1v9o/BjXyi3+RrBw=="
+        length="92235881"
         type="application/octet-stream" />
-      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.1.226</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.1.227</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
