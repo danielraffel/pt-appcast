@@ -5,17 +5,34 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.225</title>
-      <sparkle:version>480</sparkle:version>
-      <sparkle:shortVersionString>0.1.225</sparkle:shortVersionString>
+      <title>Version 0.1.226</title>
+      <description><![CDATA[
+        <h2>What's New in 0.1.226</h2>
+        <p>[0;32mGenerating release notes for version 0.1.226...[0m
+🤖 Attempting AI-enhanced release notes...
+✅ AI-enhanced release notes generated
+# Release Notes for Version 0.1.226
+
+## Features
+- **Initial Release**: Introducing the first version of the application, bringing core functionalities to users.
+
+## Improvements
+- Overall performance enhancements for a smoother user experience.
+
+## Fixes
+- Resolved minor bugs to ensure stability and reliability of the application.</p>
+        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.1.226">View full release notes</a></p>
+      ]]></description>
+      <sparkle:version>481</sparkle:version>
+      <sparkle:shortVersionString>0.1.226</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Mon, 29 Sep 2025 15:47:38 -0700</pubDate>
+      <pubDate>Mon, 29 Sep 2025 16:03:39 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.225/PlunderTube_0.1.225.dmg"
-        sparkle:edSignature="mP57GLPe2shg7ap/9PCqa43UPXNdkmKcz/6KD3WEcAsQz7aifffoHn+xu/PXwMck4RuVq7PnFYgEM/I4pOmBDw=="
-        length="92235864"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.226/PlunderTube_0.1.226.dmg"
+        sparkle:edSignature="TzJBIzEUpLcNozNq2gNLWlWFWFDSPRmhlJDcPxXEULhbpcJgjLicqALc8SeygQruVBAz/mis4N+lhtYGEbJrDA=="
+        length="92235887"
         type="application/octet-stream" />
-      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.1.225</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.1.226</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
