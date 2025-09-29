@@ -5,29 +5,28 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.227</title>
+      <title>Version 0.1.228</title>
       <description><![CDATA[
-        <h2>What's New in 0.1.227</h2>
+        <h2>What's New in 0.1.228</h2>
         <div>
-          <h3>Fixes</h3>
+          <h3>Improvements</h3>
           <ul>
-            <li>Fixed Sparkle update system authentication for downloading from private releases</li>
-            <li>Added GitHub token embedding for authenticated updates</li>
-            <li>Cleaned up release notes formatting in update dialogs</li>
+            <li>Cleaned up release notes generation (removed debug output from update dialogs)</li>
+            <li>Improved appcast XML formatting for better readability</li>
           </ul>
         </div>
-        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.1.227">View full release notes</a></p>
+        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.1.228">View full release notes</a></p>
       ]]></description>
-      <sparkle:version>482</sparkle:version>
-      <sparkle:shortVersionString>0.1.227</sparkle:shortVersionString>
+      <sparkle:version>483</sparkle:version>
+      <sparkle:shortVersionString>0.1.228</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Mon, 29 Sep 2025 16:15:00 -0700</pubDate>
+      <pubDate>Mon, 29 Sep 2025 16:23:31 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.227/PlunderTube_0.1.227.dmg"
-        sparkle:edSignature="TMTAhcP19zqhTpUfuUn063DxNDL3kx2oeDk2CUzeQaJnRoND3ZgtJw9Hzd9eJ8kGYpxVEi1v9o/BjXyi3+RrBw=="
-        length="92235887"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.228/PlunderTube_0.1.228.dmg"
+        sparkle:edSignature="9G2PJtqyxb4srhi2KC16mJh9P57knceCbZEQ0y3+EjVZ0DxC9x+gcyAzYWnLl3BVZtwE+N/ZpU42wDFyXcGGAQ=="
+        length="92235872"
         type="application/octet-stream" />
-      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.1.227</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.1.228</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
