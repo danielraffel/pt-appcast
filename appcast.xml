@@ -2,61 +2,20 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>PlunderTube</title>
-    <description>PlunderTube Updates</description>
+    <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.0.143</title>
-      <pubDate>Wed, 27 Aug 2025 23:57:47 +0000</pubDate>
-      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v0.0.143/PlunderTube.0.0.143.dmg"
-                 length="344593452"
-                 type="application/octet-stream"
-                 sparkle:version="0.0.143" />
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>PlunderTube 0.0.143</h2>
-
-<h3>📥 Download</h3>
-<ul>
-  <li><strong>DMG Installer</strong>: PlunderTube.0.0.143.dmg</li>
-  <li><strong>PKG Installer</strong>: PlunderTube.0.0.143.pkg</li>
-</ul>
-
-<h3>📦 What's Included</h3>
-<ul>
-  <li>Audio Unit (AU) Plugin</li>
-  <li>VST3 Plugin</li>
-  <li>Standalone Application</li>
-  <li>PlunderTube Diagnostics Tool</li>
-  <li>Automatic Python/UV environment setup</li>
-  <li>FFmpeg and yt-dlp included</li>
-</ul>
-
-# Release Notes for Version 0.0.143</h2></h3>
-
-<h2>Features
-<ul>
-<li>**Initial Release**: Introduced the foundational version of the application, providing users with a base set of functionalities.</h2></h3></li>
-
-<h2>Improvements
-<li>Enhanced user interface for a more intuitive experience.</h2></h3></li>
-
-<h2>Fixes
-<li>Resolved minor bugs to improve overall application stability.</li>
-</ul>
-
-<h3>💾 Installation</h3>
-<ol>
-  <li>Download the DMG file</li>
-  <li>Open and run the PKG installer</li>
-  <li>Restart your DAW if running</li>
-</ol>
-
-<h3>⚙️ System Requirements</h3>
-<ul>
-  <li>macOS 14.0 or later (ARM64)</li>
-  <li>Compatible DAW for plugin formats</li>
-</ul>
-
-<p><strong>Release Type:</strong> RELEASE</p>]]></description>
+      <title>Version 0.1.221</title>
+      <sparkle:version>0.1.221</sparkle:version>
+      <sparkle:shortVersionString>0.1.221</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+      <pubDate>Mon, 29 Sep 2025 15:13:13 -0700</pubDate>
+      <enclosure
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.221/PlunderTube_0.1.221.dmg"
+        sparkle:edSignature="sparkle:edSignature="+ThQ0naL0dKnqnlmdjhC+373J0BNhfLri/NhQYSKf5Ikd+RnRGapwCG4Y2ILMSiXTMrRZHa5xl7fGnPdkKx1BA==" length="92235882""
+        length="92235882"
+        type="application/octet-stream" />
+      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.1.221</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
