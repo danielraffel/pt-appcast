@@ -2,32 +2,29 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>PlunderTube</title>
-    <description>PlunderTube Updates - release channel</description>
+    <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
       <title>Version 0.1.232</title>
       <description><![CDATA[
         <h2>What's New in 0.1.232</h2>
-        <div># Release Notes for Version 0.1.232
-
-<h3>Features</h3>
-<li>Initial release of the product, providing users with a foundational platform to explore.</li>
-
-<h3>Improvements</h3>
-<li>Enhanced user interface for better navigation and accessibility.</li>
-
-<h3>Fixes</h3>
-<li>Resolved initial setup issues to streamline user onboarding experience.</li></div>
+        <div>
+          <h3>Fixes</h3>
+          <ul>
+            <li>Fixed Gatekeeper rejection - standalone app is now properly notarized</li>
+            <li>Sparkle updates will now install without "damaged app" errors</li>
+          </ul>
+        </div>
         <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.1.232">View full release notes</a></p>
       ]]></description>
       <sparkle:version>487</sparkle:version>
       <sparkle:shortVersionString>0.1.232</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Mon, 29 Sep 2025 17:21:49 -0700</pubDate>
+      <pubDate>Mon, 29 Sep 2025 17:11:00 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.232/PlunderTube_0.1.232.pkg"
-        sparkle:edSignature="WtFhnhT+f1aYccLAe+9uLDMbvCnShGgtvHNckFfM/rsUv2R2xBBpIKxT2hF66/R2qSQq5neAVf5mt/0JYGkuBQ=="
-        length="90810584"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.232/PlunderTube_0.1.232.dmg"
+        sparkle:edSignature="tAwlZFBGEC4ql3nPskF5qbG7PRC0XkgdpvnD9OwqNsxeJ9DDHNk4UUpPVimqAVa+AOC/6l8Qc7NFR5zgzRzEDA=="
+        length="12699255"
         type="application/octet-stream" />
       <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.1.232</sparkle:releaseNotesLink>
     </item>
