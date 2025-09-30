@@ -8,27 +8,23 @@
       <title>Version 0.1.231</title>
       <description><![CDATA[
         <h2>What's New in 0.1.231</h2>
-        <div># Release Notes for Version 0.1.231
-
-<h3>Features</h3>
-<li>Initial release of the application, offering a foundational set of functionalities for users.</li>
-
-<h3>Improvements</h3>
-<li>Established a user-friendly interface for enhanced usability.</li>
-<li>Introduced streamlined navigation to improve user experience.</li>
-
-<h3>Fixes</h3>
-<li>Resolved minor bugs for better stability during initial usage.</li></div>
+        <div>
+          <h3>Fixes</h3>
+          <ul>
+            <li>Fixed Gatekeeper quarantine issue with Sparkle updates</li>
+            <li>DMG updates now work seamlessly without "damaged app" errors</li>
+          </ul>
+        </div>
         <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.1.231">View full release notes</a></p>
       ]]></description>
       <sparkle:version>486</sparkle:version>
       <sparkle:shortVersionString>0.1.231</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Mon, 29 Sep 2025 17:07:55 -0700</pubDate>
+      <pubDate>Mon, 29 Sep 2025 17:03:00 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.231/PlunderTube_0.1.231.pkg"
-        sparkle:edSignature="HjdKatdwyhJ7Dzc5Ea79se0LEPHh19kegoAEYIGPns6Ox4h56BKTI9uOtlGnYFPbjua6qaQKWZs4jDAuwvJzDw=="
-        length="90810638"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.1.231/PlunderTube_0.1.231.dmg"
+        sparkle:edSignature="c1RYmCx/5vK/5FW7sTZ3c73OyKC3Bs5OxDCHZ87/L/yy3JbjZO+1OQgXd7sPAxbwqC2ECK9eKtJX27xKZxStCA=="
+        length="12699817"
         type="application/octet-stream" />
       <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.1.231</sparkle:releaseNotesLink>
     </item>
