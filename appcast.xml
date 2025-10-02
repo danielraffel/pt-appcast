@@ -5,31 +5,32 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.2.62</title>
+      <title>Version 0.2.72</title>
       <description><![CDATA[
-        <h2>What's New in 0.2.62</h2>
-        <div># Release Notes for Version 0.2.62
+        <h2>What's New in 0.2.72</h2>
+        <div># Release Notes for Version 0.2.72
 
 <h3>Features</h3>
-<li>Initial release of the software with a range of core functionalities.</li>
-
-<h3>Fixes</h3>
-<li>N/A</li>
+<li>Initial release of the application, providing users with core functionalities.</li>
 
 <h3>Improvements</h3>
-<li>N/A</li></div>
-        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.2.62">View full release notes</a></p>
+<li>Enhanced user interface for a more intuitive experience.</li>
+<li>Optimized performance for faster load times.</li>
+
+<h3>Fixes</h3>
+<li>Resolved minor bugs reported in the early testing phase.</li></div>
+        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.2.72">View full release notes</a></p>
       ]]></description>
-      <sparkle:version>573</sparkle:version>
-      <sparkle:shortVersionString>0.2.62</sparkle:shortVersionString>
+      <sparkle:version>583</sparkle:version>
+      <sparkle:shortVersionString>0.2.72</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 01 Oct 2025 20:40:00 -0700</pubDate>
+      <pubDate>Thu, 02 Oct 2025 00:12:18 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.2.62/PlunderTube_0.2.62.pkg"
-        sparkle:edSignature="oA7hthJJFToykAZJOD6OKoDnyDdIqZj+N6y2dDpNCfC+qLGwWfo3Ylo4T7SJgLOMlATJIgLZwSqXt6vX1eS5DA=="
-        length="124020250"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.2.72/PlunderTube_0.2.72.pkg"
+        sparkle:edSignature="9OcYH6XndECL6/wfE71pdAX+8llpC++XiMTJQZtprnFhrcFKcxkBY9kd9a4Jq8/c5SoWczwZ1PMHhg3RuUQuAQ=="
+        length="124005992"
         type="application/octet-stream" />
-      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.2.62</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.2.72</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
