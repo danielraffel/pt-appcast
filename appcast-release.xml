@@ -5,31 +5,32 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.2.45</title>
+      <title>Version 0.2.61</title>
       <description><![CDATA[
-        <h2>What's New in 0.2.45</h2>
-        <div># Release Notes for Version 0.2.45
+        <h2>What's New in 0.2.61</h2>
+        <div># Release Notes for Version 0.2.61
 
 <h3>Features</h3>
-<li>Initial release of the application, offering core functionalities for users.</li>
-
-<h3>Fixes</h3>
-<li>Not applicable in this release.</li>
+<li><strong>Initial Release</strong>: Introduced the foundational version of the software, enabling users to access core functionalities.</li>
 
 <h3>Improvements</h3>
-<li>Not applicable in this release.</li></div>
-        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.2.45">View full release notes</a></p>
+<li>Enhanced user interface for better navigation.</li>
+<li>Improved performance for faster load times and smoother interactions.</li>
+
+<h3>Fixes</h3>
+<li>Resolved minor bugs to ensure stability and reliability of the application.</li></div>
+        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.2.61">View full release notes</a></p>
       ]]></description>
-      <sparkle:version>556</sparkle:version>
-      <sparkle:shortVersionString>0.2.45</sparkle:shortVersionString>
+      <sparkle:version>572</sparkle:version>
+      <sparkle:shortVersionString>0.2.61</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 01 Oct 2025 01:15:03 -0700</pubDate>
+      <pubDate>Wed, 01 Oct 2025 19:36:16 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.2.45/PlunderTube_0.2.45.pkg"
-        sparkle:edSignature="ekFhc0/nWFKtnBz4jj6lc/sUyrpNgpU+Yjl5pPVl6g+7y+dCic2cHxlQWhJz3VB+a/FWlSOrql5BsnRvzemlAA=="
-        length="89420813"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.2.61/PlunderTube_0.2.61.pkg"
+        sparkle:edSignature="YsPOJyh6eQgkBv4zvn956OOQncsP0yadJFC93OdE9L7rhCviUxiNS/7vdciILjQaFmaQo20bj2lPBmRUOF49Aw=="
+        length="124019871"
         type="application/octet-stream" />
-      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.2.45</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.2.61</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
