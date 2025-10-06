@@ -5,31 +5,32 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.2.122</title>
+      <title>Version 0.2.125</title>
       <description><![CDATA[
-        <h2>What's New in 0.2.122</h2>
-        <div># Release Notes for Version 0.2.122
+        <h2>What's New in 0.2.125</h2>
+        <div># Release Notes for Version 0.2.125
 
 <h3>Features</h3>
-<li>Initial release of the application with core functionalities.</li>
+<li><strong>Initial Release</strong>: Introduced the first stable version of the application, featuring core functionalities and user interface.</li>
 
 <h3>Improvements</h3>
-<li>Enhanced user interface for a more intuitive experience.</li>
+<li>Enhanced overall performance for a smoother user experience.</li>
+<li>Improved responsiveness on various devices.</li>
 
 <h3>Fixes</h3>
-<li>Addressed initial bugs to ensure smoother performance.</li></div>
-        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.2.122">View full release notes</a></p>
+<li>Resolved initial bugs to ensure stability and reliability of the application.</li></div>
+        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.2.125">View full release notes</a></p>
       ]]></description>
-      <sparkle:version>633</sparkle:version>
-      <sparkle:shortVersionString>0.2.122</sparkle:shortVersionString>
+      <sparkle:version>636</sparkle:version>
+      <sparkle:shortVersionString>0.2.125</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Mon, 06 Oct 2025 09:22:40 -0700</pubDate>
+      <pubDate>Mon, 06 Oct 2025 10:22:05 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.2.122/PlunderTube_0.2.122.pkg"
-        sparkle:edSignature="jAH+vhFZdf6EokH0WuHA55qNu408UIAk3p1uidBnWNi7l0ptYMSBuvA1zu3fp5zUyRNeRlk9LEPdQdNk69pjCA=="
-        length="124027159"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.2.125/PlunderTube_0.2.125.pkg"
+        sparkle:edSignature="7HdR+7Savc2PitfdYjN40NWF9HrBy8U/27L+j3syNstR7t2dQlTCy2+eF3gxbi4jSA+SnwbEiO9BNbLVi4jhBg=="
+        length="124026264"
         type="application/octet-stream" />
-      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.2.122</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.2.125</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
