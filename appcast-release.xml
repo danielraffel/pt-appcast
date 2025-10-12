@@ -5,33 +5,32 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.2.252</title>
+      <title>Version 0.3.37</title>
       <description><![CDATA[
-        <h2>What's New in 0.2.252</h2>
-        <div># Release Notes for Version 0.2.252
+        <h2>What's New in 0.3.37</h2>
+        <div># Release Notes for Version 0.3.37
 
 <h3>Features</h3>
-<li><strong>Initial Release</strong>: Introduced the foundational version of the software, providing users with essential functionalities and a platform for future enhancements.</li>
+<li><strong>Initial Release</strong>: This marks the first stable release of the application, providing users with a solid foundation.</li>
 
 <h3>Improvements</h3>
-<li>Enhanced user interface for easier navigation and better usability.</li>
-<li>Optimized performance for faster load times and smoother operation.</li>
+<li>User interface enhancements for a more intuitive experience.</li>
+<li>Performance optimizations for smoother operation.</li>
 
 <h3>Fixes</h3>
-<li>Resolved initial bugs to improve stability and overall experience.</li>
-<li>Addressed minor issues from early testing feedback to ensure reliable functionality.</li></div>
-        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.2.252">View full release notes</a></p>
+<li>Resolved minor bugs to enhance overall stability and reliability.</li></div>
+        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.3.37">View full release notes</a></p>
       ]]></description>
-      <sparkle:version>763</sparkle:version>
-      <sparkle:shortVersionString>0.2.252</sparkle:shortVersionString>
+      <sparkle:version>804</sparkle:version>
+      <sparkle:shortVersionString>0.3.37</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 10 Oct 2025 14:44:53 -0700</pubDate>
+      <pubDate>Sun, 12 Oct 2025 16:46:10 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.2.252/PlunderTube_0.2.252.pkg"
-        sparkle:edSignature="ySytuO999BNgoPzCmkmIWZghw5eNhnvjhOuDKMdPaJUc4Oo1t9r7vgkFuiHQcA+laO7ppq3pbK1ZnYKryFyyAA=="
-        length="124062752"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.3.37/PlunderTube_0.3.37.pkg"
+        sparkle:edSignature="i8PCyBHv9U/MvVK5SjT+g8zPW6V/EVgoZmf49oRh+AgH66JBDyuNQsNCG6E88kbjz5z+OFxx6I9yF5DgGn2iDw=="
+        length="124085181"
         type="application/octet-stream" />
-      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.2.252</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.3.37</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
