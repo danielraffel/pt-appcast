@@ -5,31 +5,32 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.3.43</title>
+      <title>Version 0.3.47</title>
       <description><![CDATA[
-        <h2>What's New in 0.3.43</h2>
-        <div># Release Notes for Version 0.3.43
+        <h2>What's New in 0.3.47</h2>
+        <div><h3>Changes in v0.3.47</h3>
 
-<h3>Features</h3>
-<li><strong>Initial Release</strong>: This version marks the official launch of the application, making it available for users to install and explore.</li>
+<h4>Commits (0)</h4>
 
-<h3>Improvements</h3>
-<li>A polished user interface designed for a better user experience.</li>
+<li>Initial release</li>
 
-<h3>Fixes</h3>
-<li>Resolved minor bugs to enhance overall stability and performance.</li></div>
-        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.3.43">View full release notes</a></p>
+---
+
+📦 <strong>Installation</strong>: Download the appropriate installer below
+🔄 <strong>Updates</strong>: Existing users will be notified automatically via Sparkle
+📖 <strong>Documentation</strong>: [View full changelog](https://github.com/danielraffel/pt-releases/commits/v0.3.47)</div>
+        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.3.47">View full release notes</a></p>
       ]]></description>
-      <sparkle:version>810</sparkle:version>
-      <sparkle:shortVersionString>0.3.43</sparkle:shortVersionString>
+      <sparkle:version>814</sparkle:version>
+      <sparkle:shortVersionString>0.3.47</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 12 Oct 2025 19:16:42 -0700</pubDate>
+      <pubDate>Sun, 12 Oct 2025 21:20:24 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.3.43/PlunderTube_0.3.43.pkg"
-        sparkle:edSignature="mU26ZAMUpxl68qM1kteN0Bu5Y5h/SgY2T9zblFNB2Dzij9xvaYnMXqCyXnxgubTXEAx2w4XxSkEe/BB1W+n8AQ=="
-        length="124085773"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.3.47/PlunderTube_0.3.47.pkg"
+        sparkle:edSignature="C8obHooXPjWw9gbpRnihcxh5hsU4qNmG/bSgfHs6ntM/lg+jXrZRwKzJqggGUMjwBoXH/IGicg0FdqwXbpD5CQ=="
+        length="124093817"
         type="application/octet-stream" />
-      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.3.43</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.3.47</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
