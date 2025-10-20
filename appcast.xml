@@ -5,10 +5,10 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.3.214</title>
+      <title>Version 0.3.217</title>
       <description><![CDATA[
-        <h2>What's New in 0.3.214</h2>
-        <div><h3>Changes in v0.3.214</h3>
+        <h2>What's New in 0.3.217</h2>
+        <div><h3>Changes in v0.3.217</h3>
 
 <h4>Commits (0)</h4>
 
@@ -18,19 +18,19 @@
 
 📦 <strong>Installation</strong>: Download the appropriate installer below
 🔄 <strong>Updates</strong>: Existing users will be notified automatically via Sparkle
-📖 <strong>Documentation</strong>: [View full changelog](https://github.com/danielraffel/pt-releases/commits/v0.3.214)</div>
-        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.3.214">View full release notes</a></p>
+📖 <strong>Documentation</strong>: [View full changelog](https://github.com/danielraffel/pt-releases/commits/v0.3.217)</div>
+        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.3.217">View full release notes</a></p>
       ]]></description>
-      <sparkle:version>981</sparkle:version>
-      <sparkle:shortVersionString>0.3.214</sparkle:shortVersionString>
+      <sparkle:version>984</sparkle:version>
+      <sparkle:shortVersionString>0.3.217</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Mon, 20 Oct 2025 15:52:56 -0700</pubDate>
+      <pubDate>Mon, 20 Oct 2025 16:53:43 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.3.214/PlunderTube_0.3.214.pkg"
-        sparkle:edSignature="QEaeHcZ8309c76HwU75aEIqKYHb790DTZ6Yo0K+af2RFf6XyhC/wHtaleWugXFIJ0V1sMH8+zA6WNVgqaWW/CQ=="
-        length="124169937"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.3.217/PlunderTube_0.3.217.pkg"
+        sparkle:edSignature="+YltEig8oqwMj/RDexvSa9urIvxg7sZJOoXJrBKrKBWlkQ3ulvuSLqTrfEIqbM3JBMQliWk7DQjslPQfyulGBA=="
+        length="124172452"
         type="application/octet-stream" />
-      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.3.214</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.3.217</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
