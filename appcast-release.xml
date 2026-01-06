@@ -5,10 +5,10 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.4.31</title>
+      <title>Version 0.4.37</title>
       <description><![CDATA[
-        <h2>What's New in 0.4.31</h2>
-        <div><h3>Changes in v0.4.31</h3>
+        <h2>What's New in 0.4.37</h2>
+        <div><h3>Changes in v0.4.37</h3>
 
 <h4>Commits (0)</h4>
 
@@ -18,19 +18,19 @@
 
 📦 <strong>Installation</strong>: Download the appropriate installer below
 🔄 <strong>Updates</strong>: Existing users will be notified automatically via Sparkle
-📖 <strong>Documentation</strong>: [View full changelog](https://github.com/danielraffel/pt-releases/commits/v0.4.31)</div>
-        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.4.31">View full release notes</a></p>
+📖 <strong>Documentation</strong>: [View full changelog](https://github.com/danielraffel/pt-releases/commits/v0.4.37)</div>
+        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.4.37">View full release notes</a></p>
       ]]></description>
-      <sparkle:version>1054</sparkle:version>
-      <sparkle:shortVersionString>0.4.31</sparkle:shortVersionString>
+      <sparkle:version>1060</sparkle:version>
+      <sparkle:shortVersionString>0.4.37</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 04 Jan 2026 12:55:42 -0800</pubDate>
+      <pubDate>Mon, 05 Jan 2026 18:27:01 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.4.31/PlunderTube_0.4.31.pkg"
-        sparkle:edSignature="S/92lI5uxCm7C2Hq3cQplO+/hwDORi9U65FS57hYFkWqPicXTYAHOb29FYpm3uMVr+WIAjVcpMsTunoYd25mBw=="
-        length="164379355"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.4.37/PlunderTube_0.4.37.pkg"
+        sparkle:edSignature="eUV5ZIFMAtLZzVJuarSjXR063lUQdnMEGuoAxHB7IptFeTXkGMqzwC7FNrFG/fBWOPxzQZqPoczmAA+lWd9fDA=="
+        length="164383925"
         type="application/octet-stream" />
-      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.4.31</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.4.37</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
