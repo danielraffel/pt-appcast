@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>PlunderTube</title>
-    <description>PlunderTube Updates - release channel</description>
+    <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
       <title>Version 0.5.37</title>
@@ -28,22 +28,26 @@
           }
         </style>
         <h2>What's New in 0.5.37</h2>
-        <div># Release Notes for Version 0.5.37
-
-<h3>Features</h3>
-<li>Introduced new user authentication process for enhanced security.</li>
-<li>Added support for multi-language interface, expanding accessibility for users worldwide.</li>
-  
-<h3>Improvements</h3>
-<li>Enhanced user interface for improved navigation and usability.</li>
-<li>Optimized performance for faster load times and a smoother experience.</li>
-
-<h3>Fixes</h3>
-<li>Resolved bugs related to data syncing issues.</li>
-<li>Fixed display errors on mobile devices for better compatibility.</li>
-
----
-<strong>Source:</strong> `81e7b965` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/81e7b96506595d920884f0c3f8cb84f2fe406a17))</div>
+        <h3>New Features</h3>
+        <ul>
+          <li><strong>Multi-select samples</strong>: CMD + Click to select multiple sample cards</li>
+          <li><strong>Save samples to folder</strong>: Right-click selected samples → "Save to..." to export to any folder</li>
+          <li><strong>Batch editing</strong>: Change playback direction, loop mode, gate, and other settings for all selected samples at once</li>
+          <li><strong>Select All / Deselect All</strong>: Available in the right-click context menu (works in DAWs where keyboard shortcuts are intercepted)</li>
+        </ul>
+        <h3>Improvements</h3>
+        <ul>
+          <li>Click on empty background area to deselect all selected samples</li>
+          <li>Regular click on a sample card automatically clears multi-selection</li>
+          <li>Updated Tips &amp; Tricks with multi-select instructions</li>
+          <li>Removed unnecessary save confirmation dialog</li>
+        </ul>
+        <h3>Performance</h3>
+        <ul>
+          <li>Lowered Metal rendering from 120 FPS to 60 FPS</li>
+          <li>Removed redundant rendering calls and idle timers</li>
+          <li>Removed debug logging from audio thread and render path</li>
+        </ul>
         <p class="source">Build 1097 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/81e7b965">81e7b965</a> on main</p>
       ]]></description>
       <sparkle:version>1097</sparkle:version>
