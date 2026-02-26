@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.37</title>
+      <title>Version 0.5.40</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,37 +27,27 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.37</h2>
-        <h3>New Features</h3>
-        <ul>
-          <li><strong>Multi-select samples</strong>: CMD + Click to select multiple sample cards</li>
-          <li><strong>Save samples to folder</strong>: Right-click selected samples → "Save to..." to export to any folder</li>
-          <li><strong>Batch editing</strong>: Change playback direction, loop mode, gate, and other settings for all selected samples at once</li>
-          <li><strong>Select All / Deselect All</strong>: Available in the right-click context menu (works in DAWs where keyboard shortcuts are intercepted)</li>
-        </ul>
-        <h3>Improvements</h3>
-        <ul>
-          <li>Click on empty background area to deselect all selected samples</li>
-          <li>Regular click on a sample card automatically clears multi-selection</li>
-          <li>Updated Tips &amp; Tricks with multi-select instructions</li>
-          <li>Removed unnecessary save confirmation dialog</li>
-        </ul>
-        <h3>Performance</h3>
-        <ul>
-          <li>Lowered Metal rendering from 120 FPS to 60 FPS</li>
-          <li>Removed redundant rendering calls and idle timers</li>
-          <li>Removed debug logging from audio thread and render path</li>
-        </ul>
-        <p class="source">Build 1097 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/81e7b965">81e7b965</a> on main</p>
+        <h2>What's New in 0.5.40</h2>
+        <div><h3>Version 0.5.40</h3>
+
+<h4>✨ New Features</h4>
+<li>Add mandatory post-publish release notes workflow to CLAUDE.md</li>
+
+<h4>🐛 Bug Fixes</h4>
+<li>Defer Essentia test analysis to fix AU validation timeout</li>
+
+---
+<strong>Source:</strong> `1698fce9` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/1698fce9d1a33b489e6cb70b16301e7f227a8ada))</div>
+        <p class="source">Build 1100 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/1698fce9">1698fce9</a> on main</p>
       ]]></description>
-      <sparkle:version>1097</sparkle:version>
-      <sparkle:shortVersionString>0.5.37</sparkle:shortVersionString>
+      <sparkle:version>1100</sparkle:version>
+      <sparkle:shortVersionString>0.5.40</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 25 Feb 2026 21:08:03 -0800</pubDate>
+      <pubDate>Thu, 26 Feb 2026 12:20:15 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.37/PlunderTube_0.5.37.pkg"
-        sparkle:edSignature="6RwZ9ld4lhdEKltqfvtNpO1zRWnUBpa+MiuuLQCeVSllmLMbLWwyNK+VXxm6nRnsMl72JQN6ZbZjfJzVFsWoBw=="
-        length="164417536"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.40/PlunderTube_0.5.40.pkg"
+        sparkle:edSignature="0RxWvAf+f/qaHek2Z1PPC/i9+ARmLwQNAbglqgCdXhXe0Jy4rzwwRxeBRpVlRgLog+7jIJIPXnnxPrXbXy43BA=="
+        length="164415585"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
