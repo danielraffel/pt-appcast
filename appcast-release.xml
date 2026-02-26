@@ -5,39 +5,56 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.35</title>
+      <title>Version 0.5.36</title>
       <description><![CDATA[
         <style>
-          body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; color: #e0e0e0; background: #1a1a1a; padding: 12px; }
-          h2 { font-size: 16px; margin: 0 0 12px 0; color: #ffffff; }
-          h3, h4 { font-size: 14px; margin: 12px 0 6px 0; color: #ffffff; }
+          body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
+          h2 { font-size: 16px; margin: 0 0 12px 0; }
+          h3, h4 { font-size: 14px; margin: 12px 0 6px 0; }
           li { margin: 4px 0; }
           ul { padding-left: 20px; }
-          .source { margin-top: 16px; padding-top: 8px; border-top: 1px solid #333; font-size: 11px; color: #888; }
-          a { color: #58a6ff; }
+          .source { margin-top: 16px; padding-top: 8px; font-size: 11px; }
+          @media (prefers-color-scheme: dark) {
+            body { color: #e0e0e0; background: #1a1a1a; }
+            h2, h3, h4 { color: #fff; }
+            .source { border-top: 1px solid #333; color: #888; }
+            a { color: #58a6ff; }
+          }
+          @media (prefers-color-scheme: light) {
+            body { color: #333; background: #fff; }
+            h2, h3, h4 { color: #111; }
+            .source { border-top: 1px solid #ddd; color: #999; }
+            a { color: #0366d6; }
+          }
         </style>
-        <h2>What's New in 0.5.35</h2>
-        <div><h3>Changes in v0.5.35</h3>
+        <h2>What's New in 0.5.36</h2>
+        <div># Release Notes for Version 0.5.36
 
-<h4>Commits (0)</h4>
+<h3>Features</h3>
+<li><strong>Light/Dark Mode Support</strong>: Enhanced user experience with the addition of light and dark mode support for Sparkle update release notes.</li>
+<li><strong>Inline HTML Release Notes</strong>: Improved accessibility by using inline HTML release notes in Sparkle, allowing direct viewing instead of being redirected to the GitHub releases page.</li>
 
-<li>Initial release</li>
+<h3>Improvements</h3>
+<li><strong>Updated Sparkle Framework</strong>: Upgraded to Sparkle framework version 2.9.0 to resolve issues with the PKG updater.</li>
+<li><strong>DiagnosticKit App Detection</strong>: Improved compatibility by stripping the development rpath from the Sparkle binary.</li>
+
+<h3>Fixes</h3>
+<li><strong>Release Notes Generation</strong>: Resolved issues related to the generation of release notes and the appcast content pipeline.</li>
+<li><strong>Rosetta Arch Check</strong>: Fixed a failing architecture check during preinstall/postinstall phases under Rosetta.</li>
+<li><strong>AU Validation and Installer Improvements</strong>: Addressed AU validation timeout issues, crashes in the PKG installer, and resolved Sparkle updater problems.</li>
 
 ---
-
-📦 <strong>Installation</strong>: Download the appropriate installer below
-🔄 <strong>Updates</strong>: Existing users will be notified automatically via Sparkle
-📖 <strong>Documentation</strong>: [View full changelog](https://github.com/danielraffel/pt-releases/commits/v0.5.35)</div>
-        <p class="source">Build 1095 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/unknown">unknown</a> on unknown</p>
+<strong>Source:</strong> `unknown` on `unknown` ([view commit](https://github.com/danielraffel/PlunderTube/commit/unknown))</div>
+        <p class="source">Build 1096 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/unknown">unknown</a> on unknown</p>
       ]]></description>
-      <sparkle:version>1095</sparkle:version>
-      <sparkle:shortVersionString>0.5.35</sparkle:shortVersionString>
+      <sparkle:version>1096</sparkle:version>
+      <sparkle:shortVersionString>0.5.36</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 25 Feb 2026 17:06:35 -0800</pubDate>
+      <pubDate>Wed, 25 Feb 2026 17:23:22 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.35/PlunderTube_0.5.35.pkg"
-        sparkle:edSignature="PCW4OSIO2pp86jbdEk3XrjEXhAj0m2a8kElsYMOkqKnlQfBa0MpajUa1hXg2MXOHRp1atUW8CMLyymgth9/9DQ=="
-        length="164398372"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.36/PlunderTube_0.5.36.pkg"
+        sparkle:edSignature="GhnG7AGTlALYpopAPPBSpi0eVVu4NHVLuTJCl7KfIhDEGoItttblQcl2742lwkXOJ9iSszvfaUUYjtWZlunZAg=="
+        length="164398413"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
