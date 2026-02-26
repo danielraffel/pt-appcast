@@ -28,16 +28,11 @@
           }
         </style>
         <h2>What's New in 0.5.40</h2>
-        <div><h3>Version 0.5.40</h3>
-
-<h4>✨ New Features</h4>
-<li>Add mandatory post-publish release notes workflow to CLAUDE.md</li>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Defer Essentia test analysis to fix AU validation timeout</li>
-
----
-<strong>Source:</strong> `1698fce9` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/1698fce9d1a33b489e6cb70b16301e7f227a8ada))</div>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed an issue where the plugin could fail to appear in Ableton and other DAWs on machines with 8GB RAM due to a startup timeout during plugin scanning</li>
+          <li>Improved diagnostic tool to correctly detect the app when installed for the current user only (not just system-wide installs)</li>
+        </ul>
         <p class="source">Build 1100 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/1698fce9">1698fce9</a> on main</p>
       ]]></description>
       <sparkle:version>1100</sparkle:version>
