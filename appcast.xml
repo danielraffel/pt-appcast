@@ -5,10 +5,19 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.34</title>
+      <title>Version 0.5.35</title>
       <description><![CDATA[
-        <h2>What's New in 0.5.34</h2>
-        <div><h3>Changes in v0.5.34</h3>
+        <style>
+          body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; color: #e0e0e0; background: #1a1a1a; padding: 12px; }
+          h2 { font-size: 16px; margin: 0 0 12px 0; color: #ffffff; }
+          h3, h4 { font-size: 14px; margin: 12px 0 6px 0; color: #ffffff; }
+          li { margin: 4px 0; }
+          ul { padding-left: 20px; }
+          .source { margin-top: 16px; padding-top: 8px; border-top: 1px solid #333; font-size: 11px; color: #888; }
+          a { color: #58a6ff; }
+        </style>
+        <h2>What's New in 0.5.35</h2>
+        <div><h3>Changes in v0.5.35</h3>
 
 <h4>Commits (0)</h4>
 
@@ -18,20 +27,19 @@
 
 📦 <strong>Installation</strong>: Download the appropriate installer below
 🔄 <strong>Updates</strong>: Existing users will be notified automatically via Sparkle
-📖 <strong>Documentation</strong>: [View full changelog](https://github.com/danielraffel/pt-releases/commits/v0.5.34)</div>
-        <p><a href="https://github.com/danielraffel/pt-releases/releases/tag/v0.5.34">View full release notes</a></p>
+📖 <strong>Documentation</strong>: [View full changelog](https://github.com/danielraffel/pt-releases/commits/v0.5.35)</div>
+        <p class="source">Build 1095 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/unknown">unknown</a> on unknown</p>
       ]]></description>
-      <sparkle:version>1094</sparkle:version>
-      <sparkle:shortVersionString>0.5.34</sparkle:shortVersionString>
+      <sparkle:version>1095</sparkle:version>
+      <sparkle:shortVersionString>0.5.35</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 25 Feb 2026 16:54:08 -0800</pubDate>
+      <pubDate>Wed, 25 Feb 2026 17:06:35 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.34/PlunderTube_0.5.34.pkg"
-        sparkle:edSignature="70dtBfK/1cia06BvFiDgAzy9Gd6FXIpV7Lw3GwP4yoxEssk85W31Zfyf58+2gyUbB1Q6KkYM5p9TRW4abMXWBg=="
-        length="164398370"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.35/PlunderTube_0.5.35.pkg"
+        sparkle:edSignature="PCW4OSIO2pp86jbdEk3XrjEXhAj0m2a8kElsYMOkqKnlQfBa0MpajUa1hXg2MXOHRp1atUW8CMLyymgth9/9DQ=="
+        length="164398372"
         type="application/octet-stream"
         sparkle:installationType="package" />
-      <sparkle:releaseNotesLink>https://github.com/danielraffel/pt-releases/releases/tag/v0.5.34</sparkle:releaseNotesLink>
     </item>
   </channel>
 </rss>
