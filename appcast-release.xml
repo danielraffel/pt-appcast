@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.36</title>
+      <title>Version 0.5.27</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,34 +27,37 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.36</h2>
-        <div># Release Notes for Version 0.5.36
+        <h2>What's New in 0.5.27</h2>
+        <div># Release Notes for Version 0.5.27
 
 <h3>Features</h3>
-<li><strong>Light/Dark Mode Support</strong>: Enhanced user experience with the addition of light and dark mode support for Sparkle update release notes.</li>
-<li><strong>Inline HTML Release Notes</strong>: Improved accessibility by using inline HTML release notes in Sparkle, allowing direct viewing instead of being redirected to the GitHub releases page.</li>
+<li><strong>Multi-Select Enhancements</strong>: Added support for multi-select with keyboard shortcuts and a visual indicator for easier usage.</li>
+<li><strong>Save Options</strong>: Introduced a 'Save to...' option in the sample cell context menu for streamlined saving processes.</li>
+<li><strong>Background Click-to-Deselect</strong>: Users can now click on the background to deselect items, along with updated quick tips for better guidance.</li>
 
 <h3>Improvements</h3>
-<li><strong>Updated Sparkle Framework</strong>: Upgraded to Sparkle framework version 2.9.0 to resolve issues with the PKG updater.</li>
-<li><strong>DiagnosticKit App Detection</strong>: Improved compatibility by stripping the development rpath from the Sparkle binary.</li>
+<li><strong>Optimized Animation Handling</strong>: Reduced unnecessary timers and improved performance by stopping the GlobalAnimationManager when idle.</li>
+<li><strong>Frame Rate Adjustment</strong>: Lowered Metal MTKView frame rate from 120 FPS to 60 FPS for more stable rendering.</li>
+<li><strong>Light/Dark Mode Support</strong>: Added support for light and dark modes in Sparkle update release notes.</li>
 
 <h3>Fixes</h3>
-<li><strong>Release Notes Generation</strong>: Resolved issues related to the generation of release notes and the appcast content pipeline.</li>
-<li><strong>Rosetta Arch Check</strong>: Fixed a failing architecture check during preinstall/postinstall phases under Rosetta.</li>
-<li><strong>AU Validation and Installer Improvements</strong>: Addressed AU validation timeout issues, crashes in the PKG installer, and resolved Sparkle updater problems.</li>
+<li><strong>Context Menu and Multi-Select</strong>: Resolved issues with multi-select save and added a batch context menu.</li>
+<li><strong>Window Behavior</strong>: Fixed the plugin window floating issue to ensure proper z-ordering in DAWs.</li>
+<li><strong>Stability Improvements</strong>: Addressed various use-after-free errors and crashes related to settings panel tabs and audio processing.</li>
+<li><strong>Update Process</strong>: Fixed multiple issues with AU validation timeouts, PKG installer crashes, and the Sparkle updater functionality.</li>
 
 ---
-<strong>Source:</strong> `unknown` on `unknown` ([view commit](https://github.com/danielraffel/PlunderTube/commit/unknown))</div>
-        <p class="source">Build 1096 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/unknown">unknown</a> on unknown</p>
+<strong>Source:</strong> `81e7b965` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/81e7b96506595d920884f0c3f8cb84f2fe406a17))</div>
+        <p class="source">Build 1087 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/81e7b965">81e7b965</a> on main</p>
       ]]></description>
-      <sparkle:version>1096</sparkle:version>
-      <sparkle:shortVersionString>0.5.36</sparkle:shortVersionString>
+      <sparkle:version>1087</sparkle:version>
+      <sparkle:shortVersionString>0.5.27</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 25 Feb 2026 17:23:22 -0800</pubDate>
+      <pubDate>Wed, 25 Feb 2026 20:47:24 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.36/PlunderTube_0.5.36.pkg"
-        sparkle:edSignature="GhnG7AGTlALYpopAPPBSpi0eVVu4NHVLuTJCl7KfIhDEGoItttblQcl2742lwkXOJ9iSszvfaUUYjtWZlunZAg=="
-        length="164398413"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.27/PlunderTube_0.5.27.pkg"
+        sparkle:edSignature="sYpeHnJH58e4VcfI2QF24FHaoq69tV3KVoNao7tlwhNhOP5Y/F4YGAGZ1emEjOdLeVloz++cFiecCWJmnFBhDw=="
+        length="164417490"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
