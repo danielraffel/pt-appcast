@@ -28,16 +28,11 @@
           }
         </style>
         <h2>What's New in 0.5.43</h2>
-        <div><h3>Version 0.5.43</h3>
-
-<h4>✨ New Features</h4>
-<li>Add learnings: AU validation timeout, user-level installs, appcast caching</li>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Update learnings: document both Essentia init fix attempts and auval testing</li>
-
----
-<strong>Source:</strong> `2116e105` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/2116e105114703caa7f672fbc100556b3af10e7f))</div>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed plugin not appearing in Ableton Live and other DAWs on some machines</li>
+          <li>Plugin now loads significantly faster during DAW scanning — heavy audio analysis is deferred until first use</li>
+        </ul>
         <p class="source">Build 1103 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/2116e105">2116e105</a> on main</p>
       ]]></description>
       <sparkle:version>1103</sparkle:version>
