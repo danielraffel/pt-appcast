@@ -28,13 +28,15 @@
           }
         </style>
         <h2>What's New in 0.5.45</h2>
-        <div><h3>Version 0.5.45</h3>
-
-<h4>📝 Changes</h4>
-<li>Remove domains element to skip Destination Select screen in installer</li>
-
----
-<strong>Source:</strong> `fd63f1e9` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/fd63f1e9249e5ed2164c0581984d5f0a12d32e14))</div>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed plugin not appearing in Ableton Live and other DAWs on some machines</li>
+          <li>Plugin now loads significantly faster during DAW scanning — heavy audio analysis is deferred until first use</li>
+        </ul>
+        <h3>Improvements</h3>
+        <ul>
+          <li>Simplified installer — no more destination selection screen, always installs system-wide</li>
+        </ul>
         <p class="source">Build 1105 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/fd63f1e9">fd63f1e9</a> on main</p>
       ]]></description>
       <sparkle:version>1105</sparkle:version>
