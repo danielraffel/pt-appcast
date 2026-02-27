@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.40</title>
+      <title>Version 0.5.43</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,22 +27,27 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.40</h2>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed an issue where the plugin could fail to appear in Ableton and other DAWs on machines with 8GB RAM due to a startup timeout during plugin scanning</li>
-          <li>Improved diagnostic tool to correctly detect the app when installed for the current user only (not just system-wide installs)</li>
-        </ul>
-        <p class="source">Build 1100 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/1698fce9">1698fce9</a> on main</p>
+        <h2>What's New in 0.5.43</h2>
+        <div><h3>Version 0.5.43</h3>
+
+<h4>✨ New Features</h4>
+<li>Add learnings: AU validation timeout, user-level installs, appcast caching</li>
+
+<h4>🐛 Bug Fixes</h4>
+<li>Update learnings: document both Essentia init fix attempts and auval testing</li>
+
+---
+<strong>Source:</strong> `2116e105` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/2116e105114703caa7f672fbc100556b3af10e7f))</div>
+        <p class="source">Build 1103 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/2116e105">2116e105</a> on main</p>
       ]]></description>
-      <sparkle:version>1100</sparkle:version>
-      <sparkle:shortVersionString>0.5.40</sparkle:shortVersionString>
+      <sparkle:version>1103</sparkle:version>
+      <sparkle:shortVersionString>0.5.43</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 26 Feb 2026 12:20:15 -0800</pubDate>
+      <pubDate>Thu, 26 Feb 2026 21:50:45 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.40/PlunderTube_0.5.40.pkg"
-        sparkle:edSignature="0RxWvAf+f/qaHek2Z1PPC/i9+ARmLwQNAbglqgCdXhXe0Jy4rzwwRxeBRpVlRgLog+7jIJIPXnnxPrXbXy43BA=="
-        length="164415585"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.43/PlunderTube_0.5.43.pkg"
+        sparkle:edSignature="9ovxSGJNVcfTJC1pUGeKjy4Y30qJ+Gd6LcTT3lJipz0VcjwcEvw6lq+Ij+cMASaVJdD4vAGQ8mbHlyougIjiBg=="
+        length="164411497"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
