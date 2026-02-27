@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.43</title>
+      <title>Version 0.5.44</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,22 +27,24 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.43</h2>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed plugin not appearing in Ableton Live and other DAWs on some machines</li>
-          <li>Plugin now loads significantly faster during DAW scanning — heavy audio analysis is deferred until first use</li>
-        </ul>
-        <p class="source">Build 1103 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/2116e105">2116e105</a> on main</p>
+        <h2>What's New in 0.5.44</h2>
+        <div><h3>Version 0.5.44</h3>
+
+<h4>📝 Changes</h4>
+<li>Force system-wide install only in PKG installer</li>
+
+---
+<strong>Source:</strong> `ccc596a7` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/ccc596a7e771d59d23bc762457d8a385f7f99634))</div>
+        <p class="source">Build 1104 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/ccc596a7">ccc596a7</a> on main</p>
       ]]></description>
-      <sparkle:version>1103</sparkle:version>
-      <sparkle:shortVersionString>0.5.43</sparkle:shortVersionString>
+      <sparkle:version>1104</sparkle:version>
+      <sparkle:shortVersionString>0.5.44</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 26 Feb 2026 21:50:45 -0800</pubDate>
+      <pubDate>Fri, 27 Feb 2026 10:43:00 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.43/PlunderTube_0.5.43.pkg"
-        sparkle:edSignature="9ovxSGJNVcfTJC1pUGeKjy4Y30qJ+Gd6LcTT3lJipz0VcjwcEvw6lq+Ij+cMASaVJdD4vAGQ8mbHlyougIjiBg=="
-        length="164411497"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.44/PlunderTube_0.5.44.pkg"
+        sparkle:edSignature="xTksOJMKxMoJXEAhywinAz7REkJe2bsn5UOvyiFkTrn5GdHV2InkKtWrliJx6HJS1hCBGIOcS4Dtv9BI6vzRCA=="
+        length="164411528"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
