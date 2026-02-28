@@ -28,13 +28,10 @@
           }
         </style>
         <h2>What's New in 0.5.62</h2>
-        <div><h3>Version 0.5.62</h3>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Fix Cmd+A/C/V/X/Z in plugin text fields (AU/VST3)</li>
-
----
-<strong>Source:</strong> `90bc22db` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/90bc22db9713f5896b8b6d8c29bfea91d59a7209))</div>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed Cmd+A, Cmd+C, Cmd+V, Cmd+X, and Cmd+Z keyboard shortcuts not working in search text fields when running as an AU or VST3 plugin in a DAW</li>
+        </ul>
         <p class="source">Build 1122 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/90bc22db">90bc22db</a> on main</p>
       ]]></description>
       <sparkle:version>1122</sparkle:version>
