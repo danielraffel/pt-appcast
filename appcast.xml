@@ -28,13 +28,11 @@
           }
         </style>
         <h2>What's New in 0.5.63</h2>
-        <div><h3>Version 0.5.63</h3>
-
-<h4>✨ New Features</h4>
-<li>Add Up/Down arrow navigation in single-line text fields</li>
-
----
-<strong>Source:</strong> `565689d5` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/565689d580a52424782c0f1202c3e199edd4c814))</div>
+        <h3>Improvements</h3>
+        <ul>
+          <li>Up/Down arrow keys now jump to start/end of text in search fields</li>
+          <li>Shift+Up/Down selects all text to start/end of the field</li>
+        </ul>
         <p class="source">Build 1123 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/565689d5">565689d5</a> on main</p>
       ]]></description>
       <sparkle:version>1123</sparkle:version>
