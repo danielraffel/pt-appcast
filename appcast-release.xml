@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.57</title>
+      <title>Version 0.5.62</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,28 +27,24 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.57</h2>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed slice playback causing doubled/overlapping voices when triggering slices via MIDI</li>
-          <li>Fixed slices not responding to MIDI input until manually switching modes after loading a sample</li>
-          <li>Fixed Cmd+Q not quitting the app when the Musical Typing keyboard window was focused</li>
-          <li>Fixed Cmd+K not properly closing the Musical Typing window when toggling from the main window</li>
-        </ul>
-        <h3>Improvements</h3>
-        <ul>
-          <li>External MIDI keyboard notes now visually highlight on the Musical Typing display in real-time — works in both the keyboard layout and piano roll views</li>
-        </ul>
-        <p class="source">Build 1117 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/f0ed0eda">f0ed0eda</a> on main</p>
+        <h2>What's New in 0.5.62</h2>
+        <div><h3>Version 0.5.62</h3>
+
+<h4>🐛 Bug Fixes</h4>
+<li>Fix Cmd+A/C/V/X/Z in plugin text fields (AU/VST3)</li>
+
+---
+<strong>Source:</strong> `90bc22db` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/90bc22db9713f5896b8b6d8c29bfea91d59a7209))</div>
+        <p class="source">Build 1122 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/90bc22db">90bc22db</a> on main</p>
       ]]></description>
-      <sparkle:version>1117</sparkle:version>
-      <sparkle:shortVersionString>0.5.57</sparkle:shortVersionString>
+      <sparkle:version>1122</sparkle:version>
+      <sparkle:shortVersionString>0.5.62</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 27 Feb 2026 17:31:25 -0800</pubDate>
+      <pubDate>Fri, 27 Feb 2026 20:00:28 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.57/PlunderTube_0.5.57.pkg"
-        sparkle:edSignature="jbuI1zsC0/d6Gs/zyADK+vUCJQ8aywWW70O6pdiJTbkDoo3srMlOCKKKy+hSTJ4XigN9MXHqhzhkV/2tl3b1Bg=="
-        length="164421154"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.62/PlunderTube_0.5.62.pkg"
+        sparkle:edSignature="tkAVV7eRARh5mUP110U0zc2Npyy+svU3VtaU9ge7tZXTxsQpSIUA1+4BArhe78EOKxJmC/4iTim4GzvhvXF7BQ=="
+        length="164422636"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
