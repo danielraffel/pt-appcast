@@ -28,13 +28,17 @@
           }
         </style>
         <h2>What's New in 0.5.57</h2>
-        <div><h3>Version 0.5.57</h3>
-
-<h4>✨ New Features</h4>
-<li>Fix slice playback, Cmd+Q/K shortcuts, and add MIDI visual feedback</li>
-
----
-<strong>Source:</strong> `f0ed0eda` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/f0ed0eda5ede208850fd6e42f9681fa3eb97b83c))</div>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed slice playback causing doubled/overlapping voices when triggering slices via MIDI</li>
+          <li>Fixed slices not responding to MIDI input until manually switching modes after loading a sample</li>
+          <li>Fixed Cmd+Q not quitting the app when the Musical Typing keyboard window was focused</li>
+          <li>Fixed Cmd+K not properly closing the Musical Typing window when toggling from the main window</li>
+        </ul>
+        <h3>Improvements</h3>
+        <ul>
+          <li>External MIDI keyboard notes now visually highlight on the Musical Typing display in real-time — works in both the keyboard layout and piano roll views</li>
+        </ul>
         <p class="source">Build 1117 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/f0ed0eda">f0ed0eda</a> on main</p>
       ]]></description>
       <sparkle:version>1117</sparkle:version>
