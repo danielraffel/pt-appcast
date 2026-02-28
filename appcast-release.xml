@@ -28,13 +28,10 @@
           }
         </style>
         <h2>What's New in 0.5.65</h2>
-        <div><h3>Version 0.5.65</h3>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Fix false MISSING package reports in DiagnosticKit</li>
-
----
-<strong>Source:</strong> `4f84902b` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/4f84902ba6fb3334477617942015fb716d55a389))</div>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Extended diagnostic test timeout to prevent false reports of missing packages on machines that need more time to load Python modules</li>
+        </ul>
         <p class="source">Build 1125 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/4f84902b">4f84902b</a> on main</p>
       ]]></description>
       <sparkle:version>1125</sparkle:version>
