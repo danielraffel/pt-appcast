@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.50</title>
+      <title>Version 0.5.57</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,26 +27,24 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.50</h2>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed MIDI notes not remapping correctly when switching directly between Slice and Key Range modes (previously required switching through One Key Only as a workaround)</li>
-          <li>Fixed Cmd+A, Cmd+C, Cmd+V, Cmd+X, and Cmd+Z keyboard shortcuts not working in search text fields</li>
-        </ul>
-        <h3>Improvements</h3>
-        <ul>
-          <li>Simplified installer experience (no longer asks where to install)</li>
-        </ul>
-        <p class="source">Build 1110 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/726009ef">726009ef</a> on main</p>
+        <h2>What's New in 0.5.57</h2>
+        <div><h3>Version 0.5.57</h3>
+
+<h4>✨ New Features</h4>
+<li>Fix slice playback, Cmd+Q/K shortcuts, and add MIDI visual feedback</li>
+
+---
+<strong>Source:</strong> `f0ed0eda` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/f0ed0eda5ede208850fd6e42f9681fa3eb97b83c))</div>
+        <p class="source">Build 1117 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/f0ed0eda">f0ed0eda</a> on main</p>
       ]]></description>
-      <sparkle:version>1110</sparkle:version>
-      <sparkle:shortVersionString>0.5.50</sparkle:shortVersionString>
+      <sparkle:version>1117</sparkle:version>
+      <sparkle:shortVersionString>0.5.57</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 27 Feb 2026 14:32:29 -0800</pubDate>
+      <pubDate>Fri, 27 Feb 2026 17:31:25 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.50/PlunderTube_0.5.50.pkg"
-        sparkle:edSignature="51E/D1k2DTKZBo+9mQlmKjKPI0MCHnyCMYPel9uj1wsMLt7n7savkKc/dHoVUy0FdiJpGfUoAa3yNZHTfVmtBw=="
-        length="164412371"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.57/PlunderTube_0.5.57.pkg"
+        sparkle:edSignature="jbuI1zsC0/d6Gs/zyADK+vUCJQ8aywWW70O6pdiJTbkDoo3srMlOCKKKy+hSTJ4XigN9MXHqhzhkV/2tl3b1Bg=="
+        length="164421154"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
