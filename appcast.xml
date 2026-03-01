@@ -28,13 +28,10 @@
           }
         </style>
         <h2>What's New in 0.5.67</h2>
-        <div><h3>Version 0.5.67</h3>
-
-<h4>✨ New Features</h4>
-<li>Add Ableton crash log collection to DiagnosticKit</li>
-
----
-<strong>Source:</strong> `c78b3403` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/c78b34030bebeb4bd68aba176257b60afbf6259e))</div>
+        <h3>Improvements</h3>
+        <ul>
+          <li>Diagnostic reports now include recent Ableton Live crash logs when available, making it easier to troubleshoot plugin issues in Ableton</li>
+        </ul>
         <p class="source">Build 1127 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/c78b3403">c78b3403</a> on main</p>
       ]]></description>
       <sparkle:version>1127</sparkle:version>
