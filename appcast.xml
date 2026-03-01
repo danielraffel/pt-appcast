@@ -28,16 +28,11 @@
           }
         </style>
         <h2>What's New in 0.5.66</h2>
-        <div><h3>Version 0.5.66</h3>
-
-<h4>✨ New Features</h4>
-<li>Add unit tests for multi-highlight diagnostic behavior</li>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Fix false-positive multi-highlight diagnostic and reduce log spam</li>
-
----
-<strong>Source:</strong> `7c46399f` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/7c46399f22b98f8322e54a0d884bca8acbd27e03))</div>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed excessive diagnostic logging that could slow down performance during normal use in Ableton and other DAWs</li>
+          <li>Eliminated false "bug detected" warnings that were incorrectly triggered during polyphonic MIDI playback (playing chords)</li>
+        </ul>
         <p class="source">Build 1126 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/7c46399f">7c46399f</a> on main</p>
       ]]></description>
       <sparkle:version>1126</sparkle:version>
