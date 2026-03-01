@@ -28,15 +28,12 @@
           }
         </style>
         <h2>What's New in 0.5.72</h2>
-        <div><h3>Version 0.5.72</h3>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Fix three Ableton crash patterns found in user crash reports</li>
-<li>Fix broken links in diagnostic uploads by sanitizing filenames</li>
-<li>Fix DiagnosticKit failing to upload binary crash files (zips)</li>
-
----
-<strong>Source:</strong> `c53d2c41` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/c53d2c4127a4cc0ca16666c4a5f7080b56cd0c8a))</div>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed crashes that could occur when closing the plugin in Ableton Live</li>
+          <li>Fixed diagnostic report uploads failing for Ableton crash log files</li>
+          <li>Fixed broken download links in diagnostic reports for files with spaces in their names</li>
+        </ul>
         <p class="source">Build 1132 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/c53d2c41">c53d2c41</a> on main</p>
       ]]></description>
       <sparkle:version>1132</sparkle:version>
