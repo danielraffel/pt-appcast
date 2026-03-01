@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.67</title>
+      <title>Version 0.5.72</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,21 +27,26 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.67</h2>
-        <h3>Improvements</h3>
-        <ul>
-          <li>Diagnostic reports now include recent Ableton Live crash logs when available, making it easier to troubleshoot plugin issues in Ableton</li>
-        </ul>
-        <p class="source">Build 1127 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/c78b3403">c78b3403</a> on main</p>
+        <h2>What's New in 0.5.72</h2>
+        <div><h3>Version 0.5.72</h3>
+
+<h4>🐛 Bug Fixes</h4>
+<li>Fix three Ableton crash patterns found in user crash reports</li>
+<li>Fix broken links in diagnostic uploads by sanitizing filenames</li>
+<li>Fix DiagnosticKit failing to upload binary crash files (zips)</li>
+
+---
+<strong>Source:</strong> `c53d2c41` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/c53d2c4127a4cc0ca16666c4a5f7080b56cd0c8a))</div>
+        <p class="source">Build 1132 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/c53d2c41">c53d2c41</a> on main</p>
       ]]></description>
-      <sparkle:version>1127</sparkle:version>
-      <sparkle:shortVersionString>0.5.67</sparkle:shortVersionString>
+      <sparkle:version>1132</sparkle:version>
+      <sparkle:shortVersionString>0.5.72</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 28 Feb 2026 21:44:17 -0800</pubDate>
+      <pubDate>Sun, 01 Mar 2026 10:57:22 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.67/PlunderTube_0.5.67.pkg"
-        sparkle:edSignature="J1jJZVQBxC4CrlFpgNR1ZmiXAjqnyj/BKFZxlsmAJFjLp3Q+WsmFmpKUrIQH7CJ6aQ+wz5sKmJfPpd1/VjN9Cg=="
-        length="164435755"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.72/PlunderTube_0.5.72.pkg"
+        sparkle:edSignature="q8scwJqFIwfUOWVVim/5vYpie455jqXiL1yD2pV8Q68qwD8n0DGWdezQQ6JnN6cG19y05rUkC7OPqeCaCqR2Bg=="
+        length="164449598"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
