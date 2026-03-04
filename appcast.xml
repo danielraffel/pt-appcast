@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.72</title>
+      <title>Version 0.5.97</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,23 +27,36 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.72</h2>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed crashes that could occur when closing the plugin in Ableton Live</li>
-          <li>Fixed diagnostic report uploads failing for Ableton crash log files</li>
-          <li>Fixed broken download links in diagnostic reports for files with spaces in their names</li>
-        </ul>
-        <p class="source">Build 1132 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/c53d2c41">c53d2c41</a> on main</p>
+        <h2>What's New in 0.5.97</h2>
+        <div><h3>Version 0.5.97</h3>
+
+<h4>✨ New Features</h4>
+<li>Add Skip/Clip/All exceed behavior toggle and tappable duration units</li>
+<li>Add learnings: Cmd+key event flow in Visage/JUCE and Sparkle dev build note</li>
+<li>Add Freesound settings UI, plugin bundling, and metadata tests</li>
+<li>Add Cmd+I (sample info) and Cmd+R (regenerate) from main view</li>
+<li>Improve Sample Info dialog, fix slice regeneration, add Freesound licensing</li>
+<li>Add validated Freesound search extractor PoC and integration plan</li>
+
+<h4>🐛 Bug Fixes</h4>
+<li>Fix Cmd+I/R requiring waveform editor open first</li>
+<li>Fix Freesound metadata preservation and keyboard shortcut reliability</li>
+<li>Fix keyboard focus: sync bridge focus to Visage WindowEventHandler</li>
+<li>Fix Cmd+I/R stopping after modal dialog closes</li>
+<li>Fix Cmd+I and Cmd+R shortcuts not working from main view</li>
+
+---
+<strong>Source:</strong> `3f6a5619` on `claude/freesound-search-support` ([view commit](https://github.com/danielraffel/PlunderTube/commit/3f6a5619b6c35cbbba3f829c8d3582d16d83c9f9))</div>
+        <p class="source">Build 1157 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/3f6a5619">3f6a5619</a> on claude/freesound-search-support</p>
       ]]></description>
-      <sparkle:version>1132</sparkle:version>
-      <sparkle:shortVersionString>0.5.72</sparkle:shortVersionString>
+      <sparkle:version>1157</sparkle:version>
+      <sparkle:shortVersionString>0.5.97</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 01 Mar 2026 10:57:22 -0800</pubDate>
+      <pubDate>Wed, 04 Mar 2026 14:45:47 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.72/PlunderTube_0.5.72.pkg"
-        sparkle:edSignature="q8scwJqFIwfUOWVVim/5vYpie455jqXiL1yD2pV8Q68qwD8n0DGWdezQQ6JnN6cG19y05rUkC7OPqeCaCqR2Bg=="
-        length="164449598"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.97/PlunderTube_0.5.97.pkg"
+        sparkle:edSignature="bWaitZomsQMvOvaDlpsPLkDDoeuhkiu08h8BSXxsCJKzwaKscdpvVbvIZrq9qwPRoQVRpXRHn4qXwK81qlX1AQ=="
+        length="164530931"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
