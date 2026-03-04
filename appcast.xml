@@ -28,25 +28,23 @@
           }
         </style>
         <h2>What's New in 0.5.97</h2>
-        <div><h3>Version 0.5.97</h3>
-
-<h4>✨ New Features</h4>
-<li>Add Skip/Clip/All exceed behavior toggle and tappable duration units</li>
-<li>Add learnings: Cmd+key event flow in Visage/JUCE and Sparkle dev build note</li>
-<li>Add Freesound settings UI, plugin bundling, and metadata tests</li>
-<li>Add Cmd+I (sample info) and Cmd+R (regenerate) from main view</li>
-<li>Improve Sample Info dialog, fix slice regeneration, add Freesound licensing</li>
-<li>Add validated Freesound search extractor PoC and integration plan</li>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Fix Cmd+I/R requiring waveform editor open first</li>
-<li>Fix Freesound metadata preservation and keyboard shortcut reliability</li>
-<li>Fix keyboard focus: sync bridge focus to Visage WindowEventHandler</li>
-<li>Fix Cmd+I/R stopping after modal dialog closes</li>
-<li>Fix Cmd+I and Cmd+R shortcuts not working from main view</li>
-
----
-<strong>Source:</strong> `3f6a5619` on `claude/freesound-search-support` ([view commit](https://github.com/danielraffel/PlunderTube/commit/3f6a5619b6c35cbbba3f829c8d3582d16d83c9f9))</div>
+        <h4>New Features</h4>
+        <ul>
+          <li>Added "Use Entire Sample" mode with three behavior options: All (download full audio), Clip (limit to max duration), or Skip (skip sources that are too long)</li>
+          <li>Tappable duration unit labels (sec/min) — click to cycle and auto-convert values</li>
+          <li>Added info button explaining the All/Clip/Skip modes</li>
+          <li>Added Freesound as an alternative search source with its own per-source settings</li>
+        </ul>
+        <h4>Improvements</h4>
+        <ul>
+          <li>Keyboard shortcuts Cmd+I (sample info) and Cmd+R (regenerate) can now be used from the main view when a sample is selected</li>
+          <li>Freesound downloads work more reliably, especially for full-length audio files</li>
+        </ul>
+        <h4>Bug Fixes</h4>
+        <ul>
+          <li>Fixed keyboard shortcuts stopping after closing a dialog</li>
+          <li>Fixed search results from one source (YouTube/Freesound) incorrectly appearing when switching to the other</li>
+        </ul>
         <p class="source">Build 1157 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/3f6a5619">3f6a5619</a> on claude/freesound-search-support</p>
       ]]></description>
       <sparkle:version>1157</sparkle:version>
