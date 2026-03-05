@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.98</title>
+      <title>Version 0.5.103</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,27 +27,29 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.98</h2>
-        <h3>Improvements</h3>
-        <ul>
-          <li><strong>Enhanced Sample Info dialog</strong> — Source-specific labels ("YouTube Page" / "Freesound Page"), clickable uploader profiles, clickable Freesound tags and search phrases, and YouTube video descriptions now display correctly</li>
-          <li><strong>Download behavior help</strong> — The ? info button next to "Use Entire Sample" is now always visible, with context-aware help explaining duration settings (when disabled) or All/Clip/Skip options (when enabled)</li>
-        </ul>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed YouTube samples incorrectly showing "Freesound Page" label in Sample Info</li>
-          <li>Fixed Freesound uploader, tags, and search phrase not being clickable links</li>
-          <li>Fixed YouTube video descriptions not displaying in Sample Info</li>
-        </ul>
+        <h2>What's New in 0.5.103</h2>
+        <div><h3>Version 0.5.103</h3>
+
+<h4>✨ New Features</h4>
+<li>Sync version/build numbers to 0.5.98 (build 1158) and add learnings</li>
+<li>Add version validation against public releases before publishing</li>
+
+<h4>🐛 Bug Fixes</h4>
+<li>Fix ESC in waveform editor modals without requiring click first</li>
+<li>Fix keyboard shortcuts and reorder drag-swap issues</li>
+
+---
+<strong>Source:</strong> `8b2f2318` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/8b2f23184a86899646a003fb04ec6a45834c658f))</div>
+        <p class="source">Build 1163 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/8b2f2318">8b2f2318</a> on main</p>
       ]]></description>
-      <sparkle:version>1158</sparkle:version>
-      <sparkle:shortVersionString>0.5.98</sparkle:shortVersionString>
+      <sparkle:version>1163</sparkle:version>
+      <sparkle:shortVersionString>0.5.103</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 05 Mar 2026 00:17:51 -0800</pubDate>
+      <pubDate>Thu, 05 Mar 2026 14:23:20 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.98/PlunderTube_0.5.98.pkg"
-        sparkle:edSignature="dFvOB8zRecVcF9SWkJijb+pbdW4fVaOs7SBOVWAhlLYIvzN5CrIyD/tuamXWkxIg04l+cpt25SO4wMoSnIQHBw=="
-        length="164552386"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.103/PlunderTube_0.5.103.pkg"
+        sparkle:edSignature="GE2FBx1AGgcAAKXOeKmITpX4vrq3VXxo8PVFSIkFpMugFMK0EbZY6KnBC+z8fdDAIHZHwNzmTPFDuog0FxIkBg=="
+        length="164577084"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
