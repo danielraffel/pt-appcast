@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.77</title>
+      <title>Version 0.5.98</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,27 +27,24 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.77</h2>
-        <div><h3>Version 0.5.77</h3>
+        <h2>What's New in 0.5.98</h2>
+        <div><h3>Version 0.5.98</h3>
 
-<h4>✨ New Features</h4>
-<li>Add Sample Info metadata tests and unit-test build action</li>
-
-<h4>🔧 Improvements</h4>
-<li>Enhance Sample Info dialog with source-specific metadata and clickable links</li>
+<h4>📝 Changes</h4>
+<li>Show download behavior ? help button regardless of Use Entire Sample state</li>
 
 ---
-<strong>Source:</strong> `21ff469c` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/21ff469c888715696704438cf5798f0089eec5cf))</div>
-        <p class="source">Build 1137 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/21ff469c">21ff469c</a> on main</p>
+<strong>Source:</strong> `73f4df2a` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/73f4df2a83ac78caff050a886417d59e50769f43))</div>
+        <p class="source">Build 1139 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/73f4df2a">73f4df2a</a> on main</p>
       ]]></description>
-      <sparkle:version>1137</sparkle:version>
-      <sparkle:shortVersionString>0.5.77</sparkle:shortVersionString>
+      <sparkle:version>1139</sparkle:version>
+      <sparkle:shortVersionString>0.5.98</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 04 Mar 2026 20:29:04 -0800</pubDate>
+      <pubDate>Thu, 05 Mar 2026 00:17:51 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.77/PlunderTube_0.5.77.pkg"
-        sparkle:edSignature="nmMBMgqxMKuvOUMr6CEa2v+27FIVcUKsJKZK588WtZqmXe0+b/CmTPQFl/nWL9wndyDLE1zeQkajBdlLd2b/Bg=="
-        length="164552035"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.98/PlunderTube_0.5.98.pkg"
+        sparkle:edSignature="dFvOB8zRecVcF9SWkJijb+pbdW4fVaOs7SBOVWAhlLYIvzN5CrIyD/tuamXWkxIg04l+cpt25SO4wMoSnIQHBw=="
+        length="164552386"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
