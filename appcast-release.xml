@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.97</title>
+      <title>Version 0.5.77</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,34 +27,27 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.97</h2>
-        <h4>New Features</h4>
-        <ul>
-          <li>Added "Use Entire Sample" mode with three behavior options: All (download full audio), Clip (limit to max duration), or Skip (skip sources that are too long)</li>
-          <li>Tappable duration unit labels (sec/min) — click to cycle and auto-convert values</li>
-          <li>Added info button explaining the All/Clip/Skip modes</li>
-          <li>Added Freesound as an alternative search source with its own per-source settings</li>
-        </ul>
-        <h4>Improvements</h4>
-        <ul>
-          <li>Keyboard shortcuts Cmd+I (sample info) and Cmd+R (regenerate) can now be used from the main view when a sample is selected</li>
-          <li>Freesound downloads work more reliably, especially for full-length audio files</li>
-        </ul>
-        <h4>Bug Fixes</h4>
-        <ul>
-          <li>Fixed keyboard shortcuts stopping after closing a dialog</li>
-          <li>Fixed search results from one source (YouTube/Freesound) incorrectly appearing when switching to the other</li>
-        </ul>
-        <p class="source">Build 1157 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/3f6a5619">3f6a5619</a> on claude/freesound-search-support</p>
+        <h2>What's New in 0.5.77</h2>
+        <div><h3>Version 0.5.77</h3>
+
+<h4>✨ New Features</h4>
+<li>Add Sample Info metadata tests and unit-test build action</li>
+
+<h4>🔧 Improvements</h4>
+<li>Enhance Sample Info dialog with source-specific metadata and clickable links</li>
+
+---
+<strong>Source:</strong> `21ff469c` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/21ff469c888715696704438cf5798f0089eec5cf))</div>
+        <p class="source">Build 1137 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/21ff469c">21ff469c</a> on main</p>
       ]]></description>
-      <sparkle:version>1157</sparkle:version>
-      <sparkle:shortVersionString>0.5.97</sparkle:shortVersionString>
+      <sparkle:version>1137</sparkle:version>
+      <sparkle:shortVersionString>0.5.77</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 04 Mar 2026 14:45:47 -0800</pubDate>
+      <pubDate>Wed, 04 Mar 2026 20:29:04 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.97/PlunderTube_0.5.97.pkg"
-        sparkle:edSignature="bWaitZomsQMvOvaDlpsPLkDDoeuhkiu08h8BSXxsCJKzwaKscdpvVbvIZrq9qwPRoQVRpXRHn4qXwK81qlX1AQ=="
-        length="164530931"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.77/PlunderTube_0.5.77.pkg"
+        sparkle:edSignature="nmMBMgqxMKuvOUMr6CEa2v+27FIVcUKsJKZK588WtZqmXe0+b/CmTPQFl/nWL9wndyDLE1zeQkajBdlLd2b/Bg=="
+        length="164552035"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
