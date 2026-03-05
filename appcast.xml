@@ -28,14 +28,17 @@
           }
         </style>
         <h2>What's New in 0.5.98</h2>
-        <div><h3>Version 0.5.98</h3>
-
-<h4>📝 Changes</h4>
-<li>Show download behavior ? help button regardless of Use Entire Sample state</li>
-
----
-<strong>Source:</strong> `73f4df2a` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/73f4df2a83ac78caff050a886417d59e50769f43))</div>
-        <p class="source">Build 1139 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/73f4df2a">73f4df2a</a> on main</p>
+        <h3>Improvements</h3>
+        <ul>
+          <li><strong>Enhanced Sample Info dialog</strong> — Source-specific labels ("YouTube Page" / "Freesound Page"), clickable uploader profiles, clickable Freesound tags and search phrases, and YouTube video descriptions now display correctly</li>
+          <li><strong>Download behavior help</strong> — The ? info button next to "Use Entire Sample" is now always visible, with context-aware help explaining duration settings (when disabled) or All/Clip/Skip options (when enabled)</li>
+        </ul>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed YouTube samples incorrectly showing "Freesound Page" label in Sample Info</li>
+          <li>Fixed Freesound uploader, tags, and search phrase not being clickable links</li>
+          <li>Fixed YouTube video descriptions not displaying in Sample Info</li>
+        </ul>
       ]]></description>
       <sparkle:version>1158</sparkle:version>
       <sparkle:shortVersionString>0.5.98</sparkle:shortVersionString>
