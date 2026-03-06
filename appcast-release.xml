@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.103</title>
+      <title>Version 0.5.108</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,28 +27,26 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.103</h2>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Keyboard shortcuts (ESC, Return) now work reliably in the main editor — ESC cancels reorder mode, Return confirms it</li>
-          <li>ESC now closes popup dialogs in the Waveform Editor without needing to click first</li>
-          <li>Fixed sample reorder drag-and-swap not properly renaming files</li>
-          <li>Fixed line breaks displaying incorrectly in Sample Info descriptions</li>
-        </ul>
-        <h3>Improvements</h3>
-        <ul>
-          <li>Build system now validates version numbers before publishing to prevent accidental downgrades</li>
-        </ul>
-        <p class="source">Build 1163 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/8b2f2318">8b2f2318</a> on main</p>
+        <h2>What's New in 0.5.108</h2>
+        <div><h3>Version 0.5.108</h3>
+
+<h4>✨ New Features</h4>
+<li>Add rubber band marquee selection and remap modifier keys</li>
+<li>Add Cmd+drag paint-style selection for sample cards</li>
+<li>Sync version to 0.5.103 (build 1163) and add planning/docs from keyboard fix work</li>
+
+---
+<strong>Source:</strong> `15d4c451` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/15d4c451cef3ded3d402d1802118fbad4399db8f))</div>
+        <p class="source">Build 1168 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/15d4c451">15d4c451</a> on main</p>
       ]]></description>
-      <sparkle:version>1163</sparkle:version>
-      <sparkle:shortVersionString>0.5.103</sparkle:shortVersionString>
+      <sparkle:version>1168</sparkle:version>
+      <sparkle:shortVersionString>0.5.108</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 05 Mar 2026 14:23:20 -0800</pubDate>
+      <pubDate>Thu, 05 Mar 2026 20:10:02 -0800</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.103/PlunderTube_0.5.103.pkg"
-        sparkle:edSignature="GE2FBx1AGgcAAKXOeKmITpX4vrq3VXxo8PVFSIkFpMugFMK0EbZY6KnBC+z8fdDAIHZHwNzmTPFDuog0FxIkBg=="
-        length="164577084"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.108/PlunderTube_0.5.108.pkg"
+        sparkle:edSignature="NsfRpux7tfa17+dT59RB18ohAwrWNgP19JuhPlVfpztLZsmzITPphFNNZCvT25DbTe9ynd+t3l24524FltdMAQ=="
+        length="164588396"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
