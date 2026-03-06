@@ -28,15 +28,17 @@
           }
         </style>
         <h2>What's New in 0.5.108</h2>
-        <div><h3>Version 0.5.108</h3>
-
-<h4>✨ New Features</h4>
-<li>Add rubber band marquee selection and remap modifier keys</li>
-<li>Add Cmd+drag paint-style selection for sample cards</li>
-<li>Sync version to 0.5.103 (build 1163) and add planning/docs from keyboard fix work</li>
-
----
-<strong>Source:</strong> `15d4c451` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/15d4c451cef3ded3d402d1802118fbad4399db8f))</div>
+        <h3>New Features</h3>
+        <ul>
+          <li>Shift+Drag to draw a selection rectangle (marquee) across multiple sample cards at once</li>
+          <li>Shift+Click to select or deselect individual sample cards</li>
+        </ul>
+        <h3>Improvements</h3>
+        <ul>
+          <li>Remapped modifier keys for a more intuitive workflow: Shift for selection, Control+Click for context menus</li>
+          <li>Fixed empty space at the bottom of the Musical Typing window</li>
+          <li>Updated Tips &amp; Tricks help with new keyboard shortcuts</li>
+        </ul>
         <p class="source">Build 1168 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/15d4c451">15d4c451</a> on main</p>
       ]]></description>
       <sparkle:version>1168</sparkle:version>
