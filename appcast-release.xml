@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.117</title>
+      <title>Version 0.5.118</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,24 +27,25 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.117</h2>
-        <div><h3>Version 0.5.117</h3>
+        <h2>What's New in 0.5.118</h2>
+        <div><h3>Version 0.5.118</h3>
 
 <h4>🐛 Bug Fixes</h4>
-<li>Fix offline bounce missing MIDI notes in DAWs</li>
+<li>Fix two DAW crashes: dangling palette pointer and Essentia thread safety</li>
+<li>Fix crash when closing and reopening plugin editor in DAWs</li>
 
 ---
-<strong>Source:</strong> `7caa532c` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/7caa532c515cf81a0139a87eb41b9649b7fa598d))</div>
-        <p class="source">Build 1177 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/7caa532c">7caa532c</a> on main</p>
+<strong>Source:</strong> `7703dff5` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/7703dff5cd233b5258f46ebdd9d403c23e82400d))</div>
+        <p class="source">Build 1178 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/7703dff5">7703dff5</a> on main</p>
       ]]></description>
-      <sparkle:version>1177</sparkle:version>
-      <sparkle:shortVersionString>0.5.117</sparkle:shortVersionString>
+      <sparkle:version>1178</sparkle:version>
+      <sparkle:shortVersionString>0.5.118</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 08 Mar 2026 12:50:00 -0700</pubDate>
+      <pubDate>Sun, 08 Mar 2026 13:26:50 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.117/PlunderTube_0.5.117.pkg"
-        sparkle:edSignature="rrlDyOs/EZqvw57MZsSHI2RH2xeSd1oYz4cl7f2zqJHJ0Xb8KaDUHokuvhp+hPznbkJUf9JuZNtBo2tZ37cACg=="
-        length="164589608"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.118/PlunderTube_0.5.118.pkg"
+        sparkle:edSignature="/fwXpukMccp6K12JkH+Fl7wT3U5mn7OYusaoEuJYbbN++LJtJ78TDnualgfGHA3m8uxHNLBdvLWSOt9wAt9RDA=="
+        length="142623808"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
