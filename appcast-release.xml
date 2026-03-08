@@ -28,13 +28,13 @@
           }
         </style>
         <h2>What's New in 0.5.122</h2>
-        <div><h3>Version 0.5.122</h3>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Fix standalone crash on quit (NSEvent periodic events)</li>
-
----
-<strong>Source:</strong> `7d385148` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/7d3851484ee674f244a87cec2458ff0fe2ecdafb))</div>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed Bounce in Place producing silence for some MIDI notes in Ableton Live and other DAWs</li>
+          <li>Fixed a crash that could occur when closing and reopening the plugin editor</li>
+          <li>Fixed a crash caused by concurrent audio analysis when loading multiple samples simultaneously</li>
+          <li>Fixed a crash when quitting the standalone app</li>
+        </ul>
         <p class="source">Build 1182 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/7d385148">7d385148</a> on main</p>
       ]]></description>
       <sparkle:version>1182</sparkle:version>
