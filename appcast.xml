@@ -28,14 +28,12 @@
           }
         </style>
         <h2>What's New in 0.5.118</h2>
-        <div><h3>Version 0.5.118</h3>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Fix two DAW crashes: dangling palette pointer and Essentia thread safety</li>
-<li>Fix crash when closing and reopening plugin editor in DAWs</li>
-
----
-<strong>Source:</strong> `7703dff5` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/7703dff5cd233b5258f46ebdd9d403c23e82400d))</div>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed Bounce in Place producing silence for some MIDI notes in Ableton Live and other DAWs</li>
+          <li>Fixed a crash that could occur when closing and reopening the plugin editor</li>
+          <li>Fixed a crash caused by concurrent audio analysis when loading multiple samples simultaneously</li>
+        </ul>
         <p class="source">Build 1178 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/7703dff5">7703dff5</a> on main</p>
       ]]></description>
       <sparkle:version>1178</sparkle:version>
