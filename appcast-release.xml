@@ -28,13 +28,10 @@
           }
         </style>
         <h2>What's New in 0.5.125</h2>
-        <div><h3>Version 0.5.125</h3>
-
-<h4>✨ New Features</h4>
-<li>Add click-outside-to-dismiss for settings dropdowns</li>
-
----
-<strong>Source:</strong> `93ec3e38` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/93ec3e38400c1492d63941a524f50d91cb9da4a4))</div>
+        <h3>Improvements</h3>
+        <ul>
+          <li>Settings dropdowns now close when you click outside them</li>
+        </ul>
         <p class="source">Build 1185 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/93ec3e38">93ec3e38</a> on main</p>
       ]]></description>
       <sparkle:version>1185</sparkle:version>
