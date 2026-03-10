@@ -1,22 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>PlunderTube Windows Updates</title>
-    <link>https://github.com/danielraffel/pt-releases</link>
-    <description>Most recent changes with links to updates.</description>
+    <link>https://raw.githubusercontent.com/danielraffel/pt-appcast/main/appcast-windows.xml</link>
+    <description>Most recent PlunderTube updates for Windows.</description>
     <language>en</language>
+
     <item>
-      <title>PlunderTube v0.5.108</title>
-      <pubDate>Mon, 10 Mar 2026 05:10:00 +0000</pubDate>
-      <sparkle:version>1168</sparkle:version>
-      <sparkle:shortVersionString>0.5.108</sparkle:shortVersionString>
+      <title>Version 0.5.109</title>
+      <sparkle:version>1169</sparkle:version>
+      <sparkle:shortVersionString>0.5.109</sparkle:shortVersionString>
+      <link>https://github.com/danielraffel/pt-releases/releases/tag/v0.5.109-win</link>
+      <pubDate>Tue, 10 Mar 2026 06:35:59 +0000</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.108-win/PlunderTube-v0.5.108-Windows-x64-Setup.exe"
-        length="9979419"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.109-win/PlunderTube-v0.5.109-Windows-x64-Setup.exe"
+        sparkle:version="1169"
+        sparkle:shortVersionString="0.5.109"
         type="application/octet-stream"
-        sparkle:version="1168"
-        sparkle:shortVersionString="0.5.108"
-      />
+        length="9978005" />
     </item>
+
   </channel>
 </rss>
