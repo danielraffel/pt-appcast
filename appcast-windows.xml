@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>PlunderTube Windows Updates</title>
+    <link>https://github.com/danielraffel/pt-releases</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+    <item>
+      <title>PlunderTube v0.5.105</title>
+      <pubDate>Sun, 09 Mar 2026 21:50:00 -0700</pubDate>
+      <sparkle:version>1165</sparkle:version>
+      <sparkle:shortVersionString>0.5.105</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.105-win/PlunderTube-v0.5.105-Windows-x64-Setup.exe"
+        length="10835616"
+        type="application/octet-stream"
+        sparkle:version="1165"
+        sparkle:shortVersionString="0.5.105"
+      />
+    </item>
+  </channel>
+</rss>
