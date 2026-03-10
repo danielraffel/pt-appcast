@@ -6,16 +6,16 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>PlunderTube v0.5.105</title>
-      <pubDate>Sun, 09 Mar 2026 21:50:00 -0700</pubDate>
-      <sparkle:version>1165</sparkle:version>
-      <sparkle:shortVersionString>0.5.105</sparkle:shortVersionString>
+      <title>PlunderTube v0.5.108</title>
+      <pubDate>Mon, 10 Mar 2026 05:10:00 +0000</pubDate>
+      <sparkle:version>1168</sparkle:version>
+      <sparkle:shortVersionString>0.5.108</sparkle:shortVersionString>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.105-win/PlunderTube-v0.5.105-Windows-x64-Setup.exe"
-        length="10835616"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.108-win/PlunderTube-v0.5.108-Windows-x64-Setup.exe"
+        length="9979419"
         type="application/octet-stream"
-        sparkle:version="1165"
-        sparkle:shortVersionString="0.5.105"
+        sparkle:version="1168"
+        sparkle:shortVersionString="0.5.108"
       />
     </item>
   </channel>
