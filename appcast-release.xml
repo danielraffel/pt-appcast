@@ -28,9 +28,12 @@
           }
         </style>
         <h2>What's New in 0.5.126</h2>
-        <div><h3>Version 0.5.126</h3>
-
-<h4>✨ New Features</h4>
+        <h3>Improvements</h3>
+        <ul>
+          <li>Windows support added</li>
+          <li>Settings dropdowns now close when you click outside them</li>
+        </ul>
+        <div style="display:none"><h4>Details</h4>
 <li>Add DAW log uploads, anonymization, extractRelevantLines fix, and BUILD_DIAGNOSTICS guard</li>
 <li>Add PowerShell fallback for GitHub file upload when JUCE HTTP PUT fails</li>
 <li>Add juce_audio_devices include for AudioDeviceManager in DiagnosticKit</li>
