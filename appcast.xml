@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.126</title>
+      <title>Version 0.5.128</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,142 +27,24 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.126</h2>
-        <h3>Improvements</h3>
-        <ul>
-          <li>Windows support added</li>
-          <li>Settings dropdowns now close when you click outside them</li>
-        </ul>
-        <!-- auto-generated details below kept for reference -->
-        <div style="display:none"><h4>Details</h4>
-<li>Add DAW log uploads, anonymization, extractRelevantLines fix, and BUILD_DIAGNOSTICS guard</li>
-<li>Add PowerShell fallback for GitHub file upload when JUCE HTTP PUT fails</li>
-<li>Add juce_audio_devices include for AudioDeviceManager in DiagnosticKit</li>
-<li>Add juce_audio_devices for AudioDeviceManager in DiagnosticKit</li>
-<li>Add JUCE DiagnosticKit for Windows/Linux</li>
-<li>Add Check PlunderTube button in Windows Settings panel</li>
-<li>Add Update-LatestJson to Windows publish flow</li>
-<li>Add Windows publish flow: version validation, appcast, pt-releases</li>
-<li>Add WinSparkle auto-update integration for Windows standalone</li>
-<li>Add ISCC retry loop and Windows Defender exclusion</li>
-<li>Fix sample dedup failures and add platform-specific help text</li>
-<li>Fix Windows multi-window rendering: add SharedInitWindow (matching macOS/Linux pattern)</li>
-<li>Fix build: add public getVisageBridge() accessor to VisagePluginEditor</li>
-<li>Wire up aria2c for yt-dlp downloads + add mouse event diagnostics</li>
-<li>Add diagnostic logging for waveform buffer and mouse events on Windows</li>
-<li>Add MSVC /utf-8 flag to fix Unicode icon rendering on Windows</li>
-<li>Fix sonicgarbage.py indentation and add audio pipeline tests</li>
-<li>Add Windows installer infrastructure and fix build name</li>
-<li>Add MAP file and PDB generation for Windows crash debugging</li>
-<li>Add module base offset logging to crash handler</li>
-<li>Add thread ID and stack dump to crash handler</li>
-<li>Add debug logging to ApplicationWindow::show and showWindow for crash diagnosis</li>
-<li>Add SEH exception handling around bgfx::frame/renderFrame for crash diagnosis</li>
-<li>Add unhandled exception filter + minidump for crash diagnosis</li>
-<li>Add detailed initialise() logging to early_debug.log for crash narrowing</li>
-<li>Add global constructor logging to prove StandaloneApp.cpp is linked</li>
-<li>Add timestamp to visage debug log to verify freshness per run</li>
-<li>Add separate app_debug.log for StandaloneApp crash diagnosis</li>
-<li>Add Windows debug logging to PluginProcessor constructor and createEditor</li>
-<li>Add render thread debug logging</li>
-<li>Add debug logging to StandaloneApp for Windows crash diagnosis</li>
-<li>Add more debug logging to layer.cpp for crash diagnosis</li>
-<li>Add debug logging and env-var adapter override for VM crash diagnosis</li>
-<li>Add WARP software renderer fallback for VM/headless testing</li>
-<li>Fix Windows runtime: remove WHOLEARCHIVE, add cross-platform Deno URLs</li>
-<li>Add Windows release strategy plan document</li>
-<li>Add TimeStretchProcessor and missing Essentia algo dirs for Windows</li>
-<li>Add KissFFT, exclude macOS-only Accelerate FFT from Essentia build</li>
-<li>Add 3rdparty sources and include dirs for Essentia Windows build</li>
-<li>Re-add streaming include dirs for header resolution</li>
-<li>Add streaming include dirs to Essentia build for MSVC</li>
-<li>Patch Essentia types.h for MSVC: add std::binary_function shim</li>
-<li>Fix Essentia build on MSVC: use C++14 and add _HAS_AUTO_PTR_ETC for std::binary_function</li>
-<li>Add Windows x64 Essentia build support</li>
-<li>Add CMAKE_POSITION_INDEPENDENT_CODE for Linux VST3 shared library linking</li>
-<li>Add _USE_MATH_DEFINES and M_PI fallback to all files using M_PI</li>
-<li>Guard EssentiaTab with #ifdef ENABLE_ESSENTIA_FEATURES in VisageSettingsPanel</li>
-<li>Add M_PI definition to VisageAnimationManager.cpp for Windows</li>
-<li>Add windows.h include for HWND type in JuceVisageBridge</li>
-<li>Add Windows platform guards to CMakeLists.txt</li>
+        <h2>What's New in 0.5.128</h2>
+        <div><h3>Version 0.5.128</h3>
 
 <h4>🐛 Bug Fixes</h4>
-<li>Fix em-dash encoding in diagnostic report, capture pluginval crash details</li>
-<li>Fix inflated word dictionary claim in Windows installer welcome text</li>
-<li>Fix UpdateCallback static variable across MSVC static library boundary</li>
-<li>Fix VST3 linker error from ENABLE_WINSPARKLE on shared target</li>
-<li>Fix installer usermusic error and enable WinSparkle update button in settings</li>
-<li>Fix pluginval launching in GUI mode instead of headless CLI mode</li>
-<li>Fix DiagnosticKit exe path - no Standalone subdirectory on Windows</li>
-<li>Replace em-dash with ASCII dash in build.ps1 to fix Windows parse error</li>
-<li>Fix PowerShell here-string parse error in DiagnosticKit .env generation</li>
-<li>Fix JUCE Array::sort lambda to use std::sort for MSVC compatibility</li>
-<li>Fix OwnedArray copy error: use reference for getAvailableDeviceTypes</li>
-<li>Fix JUCE_TAG regex to skip commented lines, default to 8.0.12</li>
-<li>Fix WinSparkleUpdater guard: use _WIN32 instead of JUCE_WINDOWS</li>
-<li>Fix gh release create: use --notes-file for multiline release notes</li>
-<li>Fix publish action: gh release view stderr crashes PowerShell</li>
-<li>Fix Inno Setup template and build.ps1 for working Windows installer</li>
-<li>Fix double "Save Preset As" dialog on Windows</li>
-<li>Fix preset dialog hidden behind Visage canvas + click-through</li>
-<li>Fix ghost preset dialog on Windows after save</li>
-<li>Fix use-after-free in WaveformEditorWindow delayed callbacks</li>
-<li>Fix D3D11 multi-window rendering: view ID partitioning + debug cleanup</li>
-<li>Fix main window freeze after resume: restart watchdog timer</li>
-<li>Fix empty keyboard window on re-open: restart timer after destroyVisageWindow</li>
-<li>Fix keyboard window resume: cache bridge pointer for reliable pause/resume</li>
-<li>Fix VirtualKeyboardWindow bgfx contention on Windows</li>
-<li>Fix crash on waveform editor close: destroy bgfx framebuffer before resuming main window</li>
-<li>Fix empty waveform buffer: load audio directly from disk when processBlock hasn't run</li>
-<li>Fix Visage multi-window rendering on Windows (waveform editor black screen)</li>
-<li>Fix PYTHON_EXEC delimiter for Windows: use | instead of :</li>
-<li>Fix cross-platform paths for Windows: use PlunderTubePaths helpers</li>
-<li>Fix cross-platform paths in sonicgarbage.py and postinstall script</li>
-<li>Fix Windows crash: skip JUCE OpenGL overlay, use Visage's D3D11 directly</li>
-<li>Fix duplicate stack variable in crash handler</li>
-<li>Fix NOMINMAX for windows.h in canvas.cpp</li>
-<li>Write PluginProcessor debug logs to early_debug.log (not visage which truncates)</li>
-<li>Fix debug logging: use separate early_debug.log to avoid truncation by renderer</li>
-<li>Fix: Custom standalone app was macOS-only, causing Windows to use default JUCE app</li>
-<li>Write all debug logs to visage_debug.log for unified crash trace</li>
-<li>Fix patch script: don't exit early, check all files</li>
-<li>Fix unescaped parenthesis in batch file comment</li>
-<li>Fix patch to target actual struct name: case_insensitive_str_cmp</li>
-<li>Fix Essentia MSVC patch: remove std::binary_function instead of shimming</li>
-<li>Fix undeclared homeDir in findScriptFile()</li>
-<li>Fix PlunderTubePaths.h for cross-platform support</li>
-<li>Fix Visage D3D11 swap chain crash on Windows VFIO GPU passthrough</li>
-<li>Update JUCE 8.0.7 → 8.0.12 to fix VBlankDispatcher crash on Parallels</li>
-<li>Fix SIMD template error with jmax<int64> on ARM64 Linux NEON</li>
-<li>Fix 0LL vs int64_t type mismatch in OriginalEnhancedAlgorithm</li>
-<li>Fix int64_t-to-var ambiguity in SliceManager on ARM64 Linux</li>
-<li>Fix var-to-int64_t ambiguous cast in SliceManager on ARM64 Linux</li>
-<li>Fix int64_t/int64 type mismatch on ARM64 Linux (Clang)</li>
-<li>Fix int64_t cast ambiguity for Clang on Linux ARM64</li>
-<li>Fix execinfo.h guard and constexpr lambda default params for Windows</li>
-<li>Fix HWND includes and kModifierCtrl for Windows MSVC</li>
-<li>Fix missing <optional> include and M_PI for Windows MSVC</li>
-<li>Fix cxxabi.h include and loadFromEssentiaAnalysis guard for Windows</li>
-<li>Fix Windows MSVC min/max macro conflicts and unguarded getWaveformState</li>
-<li>Fix Windows compilation errors: dlfcn.h guard, setBounds override, PopupMenu::show</li>
-
-<h4>🔧 Improvements</h4>
-<li>Register update callback in StandaloneApp::initialise() not SparkleInit</li>
-<li>Platform-specific update tip: general settings on Windows, menu on macOS</li>
-<li>Bundle WinSparkle.dll in portable zip, update latest.json asset name</li>
+<li>Fix double-delete crash in waveform editor close and upgrade JUCE to 8.0.12</li>
 
 ---
-<strong>Source:</strong> `8ddf7171` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/8ddf71717bfe63d158bc1cb0de1ef6250393e636))</div>
-        <p class="source">Build 1186 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/8ddf7171">8ddf7171</a> on main</p>
+<strong>Source:</strong> `4c35902e` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/4c35902e12a676518ee836a41115d248f6695754))</div>
+        <p class="source">Build 1188 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/4c35902e">4c35902e</a> on main</p>
       ]]></description>
-      <sparkle:version>1186</sparkle:version>
-      <sparkle:shortVersionString>0.5.126</sparkle:shortVersionString>
+      <sparkle:version>1188</sparkle:version>
+      <sparkle:shortVersionString>0.5.128</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 11 Mar 2026 22:02:44 -0700</pubDate>
+      <pubDate>Sat, 14 Mar 2026 17:51:02 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.126/PlunderTube_0.5.126.pkg"
-        sparkle:edSignature="WYAF1t88iI4YYF3kK1f34ywC5YTnHJp+tclBuVP41Qo9voNpFrUehXrlVX5KexFd6xcku7TgE7VMQAYeKr96Dw=="
-        length="166660474"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.128/PlunderTube_0.5.128.pkg"
+        sparkle:edSignature="PhTFjuA6lRlhFRYwack2S8+jGsnsXpGagAyW4yZBehQ1dV/60Jq5n2/MzqtevVjgBcrIy+I83LKhOZbGF04RDw=="
+        length="167087252"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
