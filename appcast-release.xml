@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.129</title>
+      <title>Version 0.5.130</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,21 +27,24 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.129</h2>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed a crash that could occur when quitting the standalone app</li>
-        </ul>
-        <p class="source">Build 1189</p>
+        <h2>What's New in 0.5.130</h2>
+        <div><h3>Version 0.5.130</h3>
+
+<h4>🐛 Bug Fixes</h4>
+<li>Fix installer failure: replace UV curl|sh with direct binary download</li>
+
+---
+<strong>Source:</strong> `138981cb` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/138981cbbc84fc8a2f0c70e9a9ebba0210a3f867))</div>
+        <p class="source">Build 1191 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/138981cb">138981cb</a> on main</p>
       ]]></description>
-      <sparkle:version>1189</sparkle:version>
-      <sparkle:shortVersionString>0.5.129</sparkle:shortVersionString>
+      <sparkle:version>1191</sparkle:version>
+      <sparkle:shortVersionString>0.5.130</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 14 Mar 2026 19:30:21 -0700</pubDate>
+      <pubDate>Sun, 15 Mar 2026 15:39:16 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.129/PlunderTube_0.5.129.pkg"
-        sparkle:edSignature="ePc2ddEbawvR5rvUrudOrQ3A3m+ZCU+gxLaMa6EgYsQnMQpQhMuZBfifTI+DoXPVXRESUmSJcJMs2BaKNjDmAA=="
-        length="167088326"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.130/PlunderTube_0.5.130.pkg"
+        sparkle:edSignature="t02GmfZvgvXEA6TmxgsA5YzX0O/SIldgN4Jr4p6rRuBNmXdcWMEG0gaHWX3ieMg1zIcG1YMmt4rV/QQIwHD8Bw=="
+        length="167087234"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
