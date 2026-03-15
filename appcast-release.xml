@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.128</title>
+      <title>Version 0.5.129</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,24 +27,24 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.128</h2>
-        <div><h3>Version 0.5.128</h3>
+        <h2>What's New in 0.5.129</h2>
+        <div><h3>Version 0.5.129</h3>
 
 <h4>🐛 Bug Fixes</h4>
-<li>Fix double-delete crash in waveform editor close and upgrade JUCE to 8.0.12</li>
+<li>Fix standalone crash on quit by catching NSException during menu teardown</li>
 
 ---
-<strong>Source:</strong> `4c35902e` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/4c35902e12a676518ee836a41115d248f6695754))</div>
-        <p class="source">Build 1188 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/4c35902e">4c35902e</a> on main</p>
+<strong>Source:</strong> `9b6bcb8d` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/9b6bcb8d70ecec867e2874a2e1bef44fa3d15493))</div>
+        <p class="source">Build 1189 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/9b6bcb8d">9b6bcb8d</a> on main</p>
       ]]></description>
-      <sparkle:version>1188</sparkle:version>
-      <sparkle:shortVersionString>0.5.128</sparkle:shortVersionString>
+      <sparkle:version>1189</sparkle:version>
+      <sparkle:shortVersionString>0.5.129</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 14 Mar 2026 17:51:02 -0700</pubDate>
+      <pubDate>Sat, 14 Mar 2026 19:30:21 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.128/PlunderTube_0.5.128.pkg"
-        sparkle:edSignature="PhTFjuA6lRlhFRYwack2S8+jGsnsXpGagAyW4yZBehQ1dV/60Jq5n2/MzqtevVjgBcrIy+I83LKhOZbGF04RDw=="
-        length="167087252"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.129/PlunderTube_0.5.129.pkg"
+        sparkle:edSignature="ePc2ddEbawvR5rvUrudOrQ3A3m+ZCU+gxLaMa6EgYsQnMQpQhMuZBfifTI+DoXPVXRESUmSJcJMs2BaKNjDmAA=="
+        length="167088326"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
