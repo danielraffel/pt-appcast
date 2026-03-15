@@ -7,17 +7,17 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.5.128</title>
-      <sparkle:version>1188</sparkle:version>
-      <sparkle:shortVersionString>0.5.128</sparkle:shortVersionString>
-      <link>https://github.com/danielraffel/pt-releases/releases/tag/v0.5.128-win</link>
-      <pubDate>Sun, 15 Mar 2026 01:08:37 +0000</pubDate>
+      <title>Version 0.5.129</title>
+      <sparkle:version>1189</sparkle:version>
+      <sparkle:shortVersionString>0.5.129</sparkle:shortVersionString>
+      <link>https://github.com/danielraffel/pt-releases/releases/tag/v0.5.129-win</link>
+      <pubDate>Sun, 15 Mar 2026 02:44:00 +0000</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.128-win/PlunderTube-v0.5.128-Windows-x64-Setup.exe"
-        sparkle:version="1188"
-        sparkle:shortVersionString="0.5.128"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.129-win/PlunderTube-v0.5.129-Windows-x64-Setup.exe"
+        sparkle:version="1189"
+        sparkle:shortVersionString="0.5.129"
         type="application/octet-stream"
-        length="11635909" />
+        length="11637088" />
     </item>
 
   </channel>
