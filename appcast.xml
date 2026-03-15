@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.130</title>
+      <title>Version 0.5.129</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,25 +27,21 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.130</h2>
+        <h2>What's New in 0.5.129</h2>
         <h3>Bug Fixes</h3>
         <ul>
-          <li>Fixed installer failing on first install — the Python environment setup now completes reliably</li>
-          <li>Fixed installer scripts running under Rosetta translation on Apple Silicon Macs</li>
+          <li>Fixed a crash that could occur when quitting the standalone app</li>
         </ul>
-        <h3>Improvements</h3>
-        <ul>
-          <li>Installer now requires macOS 14 (Sonoma) or later and Apple Silicon</li>
-        </ul>
+        <p class="source">Build 1189</p>
       ]]></description>
-      <sparkle:version>1191</sparkle:version>
-      <sparkle:shortVersionString>0.5.130</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 15 Mar 2026 15:39:16 -0700</pubDate>
+      <sparkle:version>1189</sparkle:version>
+      <sparkle:shortVersionString>0.5.129</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+      <pubDate>Sat, 14 Mar 2026 19:30:21 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.130/PlunderTube_0.5.130.pkg"
-        sparkle:edSignature="t02GmfZvgvXEA6TmxgsA5YzX0O/SIldgN4Jr4p6rRuBNmXdcWMEG0gaHWX3ieMg1zIcG1YMmt4rV/QQIwHD8Bw=="
-        length="167087234"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.129/PlunderTube_0.5.129.pkg"
+        sparkle:edSignature="ePc2ddEbawvR5rvUrudOrQ3A3m+ZCU+gxLaMa6EgYsQnMQpQhMuZBfifTI+DoXPVXRESUmSJcJMs2BaKNjDmAA=="
+        length="167088326"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
