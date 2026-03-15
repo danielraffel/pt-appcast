@@ -28,14 +28,11 @@
           }
         </style>
         <h2>What's New in 0.5.129</h2>
-        <div><h3>Version 0.5.129</h3>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Fix standalone crash on quit by catching NSException during menu teardown</li>
-
----
-<strong>Source:</strong> `9b6bcb8d` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/9b6bcb8d70ecec867e2874a2e1bef44fa3d15493))</div>
-        <p class="source">Build 1189 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/9b6bcb8d">9b6bcb8d</a> on main</p>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed a crash that could occur when quitting the standalone app</li>
+        </ul>
+        <p class="source">Build 1189</p>
       ]]></description>
       <sparkle:version>1189</sparkle:version>
       <sparkle:shortVersionString>0.5.129</sparkle:shortVersionString>
