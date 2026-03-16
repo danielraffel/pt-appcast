@@ -28,18 +28,20 @@
           }
         </style>
         <h2>What's New in 0.5.134</h2>
-        <div><h3>Version 0.5.134</h3>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Fix Musical Typing window going black on second open</li>
-
----
-<strong>Source:</strong> `8a5ea08d` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/8a5ea08d29c7ec3640ca88c037843230745e33a8))</div>
-        <p class="source">Build 1195 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/8a5ea08d">8a5ea08d</a> on main</p>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed installer failing on first install</li>
+          <li>Fixed installer scripts running under Rosetta on Apple Silicon</li>
+          <li>Fixed Musical Typing keyboard going black when reopened</li>
+        </ul>
+        <h3>Improvements</h3>
+        <ul>
+          <li>Installer now requires macOS 14 (Sonoma) or later and Apple Silicon</li>
+        </ul>
       ]]></description>
       <sparkle:version>1195</sparkle:version>
       <sparkle:shortVersionString>0.5.134</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Mon, 16 Mar 2026 15:19:54 -0700</pubDate>
       <enclosure
         url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.134/PlunderTube_0.5.134.pkg"
