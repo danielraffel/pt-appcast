@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.129</title>
+      <title>Version 0.5.131</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,21 +27,25 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.129</h2>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed a crash that could occur when quitting the standalone app</li>
-        </ul>
-        <p class="source">Build 1189</p>
+        <h2>What's New in 0.5.131</h2>
+        <div><h3>Version 0.5.131</h3>
+
+<h4>🐛 Bug Fixes</h4>
+<li>Fix UV binary Gatekeeper rejection: ad-hoc codesign after download</li>
+<li>Fix installer failure: replace UV curl|sh with direct binary download</li>
+
+---
+<strong>Source:</strong> `2cae9d46` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/2cae9d46d57bfc2de8db3aad0e7e9bfb8cbd94dc))</div>
+        <p class="source">Build 1194 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/2cae9d46">2cae9d46</a> on main</p>
       ]]></description>
-      <sparkle:version>1189</sparkle:version>
-      <sparkle:shortVersionString>0.5.129</sparkle:shortVersionString>
+      <sparkle:version>1194</sparkle:version>
+      <sparkle:shortVersionString>0.5.131</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 14 Mar 2026 19:30:21 -0700</pubDate>
+      <pubDate>Sun, 15 Mar 2026 20:27:30 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.129/PlunderTube_0.5.129.pkg"
-        sparkle:edSignature="ePc2ddEbawvR5rvUrudOrQ3A3m+ZCU+gxLaMa6EgYsQnMQpQhMuZBfifTI+DoXPVXRESUmSJcJMs2BaKNjDmAA=="
-        length="167088326"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.131/PlunderTube_0.5.131.pkg"
+        sparkle:edSignature="4EQsp87jVRNkc2WDhOk3rO87n9cpyTbM9GCICg4p8KEk1IfrNPWakbo40Q/Svpa+jZEi76LZLzVuQOrX9fRrAQ=="
+        length="167086957"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
