@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.131</title>
+      <title>Version 0.5.134</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,26 +27,24 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.131</h2>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed installer failing on first install — the Python environment setup now completes reliably</li>
-          <li>Fixed installer scripts running under Rosetta translation on Apple Silicon Macs</li>
-          <li>Fixed downloaded UV binary being blocked by macOS Gatekeeper during install</li>
-        </ul>
-        <h3>Improvements</h3>
-        <ul>
-          <li>Installer now requires macOS 14 (Sonoma) or later and Apple Silicon</li>
-        </ul>
+        <h2>What's New in 0.5.134</h2>
+        <div><h3>Version 0.5.134</h3>
+
+<h4>🐛 Bug Fixes</h4>
+<li>Fix Musical Typing window going black on second open</li>
+
+---
+<strong>Source:</strong> `8a5ea08d` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/8a5ea08d29c7ec3640ca88c037843230745e33a8))</div>
+        <p class="source">Build 1195 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/8a5ea08d">8a5ea08d</a> on main</p>
       ]]></description>
-      <sparkle:version>1194</sparkle:version>
-      <sparkle:shortVersionString>0.5.131</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 15 Mar 2026 20:27:30 -0700</pubDate>
+      <sparkle:version>1195</sparkle:version>
+      <sparkle:shortVersionString>0.5.134</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+      <pubDate>Mon, 16 Mar 2026 15:19:54 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.131/PlunderTube_0.5.131.pkg"
-        sparkle:edSignature="4EQsp87jVRNkc2WDhOk3rO87n9cpyTbM9GCICg4p8KEk1IfrNPWakbo40Q/Svpa+jZEi76LZLzVuQOrX9fRrAQ=="
-        length="167086957"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.134/PlunderTube_0.5.134.pkg"
+        sparkle:edSignature="7bYYrHuAXfPdZgclCva+s45Fbn7vQd0Iw3xgDpn5ZtxYYV7fQQKR1k8P+ETq5ZifvGMzCGqOL1hsrzr/Rgj9Ag=="
+        length="167086420"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
