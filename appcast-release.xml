@@ -28,19 +28,20 @@
           }
         </style>
         <h2>What's New in 0.5.131</h2>
-        <div><h3>Version 0.5.131</h3>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Fix UV binary Gatekeeper rejection: ad-hoc codesign after download</li>
-<li>Fix installer failure: replace UV curl|sh with direct binary download</li>
-
----
-<strong>Source:</strong> `2cae9d46` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/2cae9d46d57bfc2de8db3aad0e7e9bfb8cbd94dc))</div>
-        <p class="source">Build 1194 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/2cae9d46">2cae9d46</a> on main</p>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed installer failing on first install — the Python environment setup now completes reliably</li>
+          <li>Fixed installer scripts running under Rosetta translation on Apple Silicon Macs</li>
+          <li>Fixed downloaded UV binary being blocked by macOS Gatekeeper during install</li>
+        </ul>
+        <h3>Improvements</h3>
+        <ul>
+          <li>Installer now requires macOS 14 (Sonoma) or later and Apple Silicon</li>
+        </ul>
       ]]></description>
       <sparkle:version>1194</sparkle:version>
       <sparkle:shortVersionString>0.5.131</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Sun, 15 Mar 2026 20:27:30 -0700</pubDate>
       <enclosure
         url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.131/PlunderTube_0.5.131.pkg"
