@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.140</title>
+      <title>Version 0.5.141</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,36 +27,24 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.140</h2>
-        <h3>New Features</h3>
-        <ul>
-          <li><strong>Sample Position Control</strong>: Choose where in a video to extract audio &mdash; Beginning, Middle, End, or Random &mdash; from the new "Sample From" dropdown in Settings (thanks Charles/End for the idea!)</li>
-          <li><strong>Quick Re-extract</strong>: Press Cmd+Shift+R to instantly re-extract a sample from a random position in the same source &mdash; no dialog needed</li>
-          <li><strong>Open Settings shortcut</strong>: Press Cmd+, to quickly open the Settings panel</li>
-          <li>The Regenerate dialog now includes a "Sample From" option so you can pick extraction position per-sample</li>
-        </ul>
-        <h3>Improvements</h3>
-        <ul>
-          <li>Trim lines on sample cards now update in real-time as you drag handles in the waveform editor</li>
-          <li>Keyboard shortcuts (Cmd+Shift+R, Cmd+R, Cmd+I, Cmd+,) now work even when Musical Typing is open</li>
-          <li>Streamlined Tips &amp; Tricks help text</li>
-        </ul>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed crash when closing Musical Typing keyboard</li>
-          <li>Fixed Musical Typing window going black when reopened</li>
-          <li>Fixed installer failure on fresh installs</li>
-        </ul>
-        <p class="source">Build 1201 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/bbf7e011">bbf7e011</a> on main</p>
+        <h2>What's New in 0.5.141</h2>
+        <div><h3>Version 0.5.141</h3>
+
+<h4>📝 Changes</h4>
+<li>Support multi-select for Cmd+Shift+R random re-extract</li>
+
+---
+<strong>Source:</strong> `8dae2d30` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/8dae2d30edd2504a66b26639a6e02766c7532397))</div>
+        <p class="source">Build 1202 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/8dae2d30">8dae2d30</a> on main</p>
       ]]></description>
-      <sparkle:version>1201</sparkle:version>
-      <sparkle:shortVersionString>0.5.140</sparkle:shortVersionString>
+      <sparkle:version>1202</sparkle:version>
+      <sparkle:shortVersionString>0.5.141</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Tue, 17 Mar 2026 15:01:28 -0700</pubDate>
+      <pubDate>Tue, 17 Mar 2026 15:36:25 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.140/PlunderTube_0.5.140.pkg"
-        sparkle:edSignature="rFUKg8qWokPk/C4Lf7fGmmmXO+B3DHfjH52+xZPe57R12hnr62X77/I9LPPUoeRKk4ovXnEc0o+Fx5NIKdo8BA=="
-        length="167125319"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.141/PlunderTube_0.5.141.pkg"
+        sparkle:edSignature="gtKDjkrO9YMzD/8jBYozVxlcC4HGM5fVLi3WyyBb+Ex4vgENKt9IF9fp+xqgQEQJ+x9Njuft9Xy3uCD/xkVuDQ=="
+        length="167125313"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
