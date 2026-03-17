@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - Stable Channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.134</title>
+      <title>Version 0.5.140</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,26 +27,32 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.134</h2>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed installer failing on first install</li>
-          <li>Fixed installer scripts running under Rosetta on Apple Silicon</li>
-          <li>Fixed Musical Typing keyboard going black when reopened</li>
-        </ul>
-        <h3>Improvements</h3>
-        <ul>
-          <li>Installer now requires macOS 14 (Sonoma) or later and Apple Silicon</li>
-        </ul>
+        <h2>What's New in 0.5.140</h2>
+        <div><h3>Version 0.5.140</h3>
+
+<h4>✨ New Features</h4>
+<li>Add learning: Visage cross-window state sync for real-time trim line updates</li>
+<li>Add sample position control, keyboard shortcuts, and real-time trim line updates</li>
+
+<h4>🐛 Bug Fixes</h4>
+<li>Fix NSEvent monitor over-release crash when closing Musical Typing</li>
+<li>Fix Cmd+Shift+R with Musical Typing via NSEvent monitor</li>
+
+<h4>🔧 Improvements</h4>
+<li>Remove edit-state tracking from updateState and forceRender callback</li>
+
+---
+<strong>Source:</strong> `bbf7e011` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/bbf7e0114ec9298028ac208161e849b3818ddaf9))</div>
+        <p class="source">Build 1201 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/bbf7e011">bbf7e011</a> on main</p>
       ]]></description>
-      <sparkle:version>1195</sparkle:version>
-      <sparkle:shortVersionString>0.5.134</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Mon, 16 Mar 2026 15:19:54 -0700</pubDate>
+      <sparkle:version>1201</sparkle:version>
+      <sparkle:shortVersionString>0.5.140</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+      <pubDate>Tue, 17 Mar 2026 15:01:28 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.134/PlunderTube_0.5.134.pkg"
-        sparkle:edSignature="7bYYrHuAXfPdZgclCva+s45Fbn7vQd0Iw3xgDpn5ZtxYYV7fQQKR1k8P+ETq5ZifvGMzCGqOL1hsrzr/Rgj9Ag=="
-        length="167086420"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.140/PlunderTube_0.5.140.pkg"
+        sparkle:edSignature="rFUKg8qWokPk/C4Lf7fGmmmXO+B3DHfjH52+xZPe57R12hnr62X77/I9LPPUoeRKk4ovXnEc0o+Fx5NIKdo8BA=="
+        length="167125319"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
