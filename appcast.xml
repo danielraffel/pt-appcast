@@ -28,21 +28,25 @@
           }
         </style>
         <h2>What's New in 0.5.140</h2>
-        <div><h3>Version 0.5.140</h3>
-
-<h4>✨ New Features</h4>
-<li>Add learning: Visage cross-window state sync for real-time trim line updates</li>
-<li>Add sample position control, keyboard shortcuts, and real-time trim line updates</li>
-
-<h4>🐛 Bug Fixes</h4>
-<li>Fix NSEvent monitor over-release crash when closing Musical Typing</li>
-<li>Fix Cmd+Shift+R with Musical Typing via NSEvent monitor</li>
-
-<h4>🔧 Improvements</h4>
-<li>Remove edit-state tracking from updateState and forceRender callback</li>
-
----
-<strong>Source:</strong> `bbf7e011` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/bbf7e0114ec9298028ac208161e849b3818ddaf9))</div>
+        <h3>New Features</h3>
+        <ul>
+          <li><strong>Sample Position Control</strong>: Choose where in a video to extract audio &mdash; Beginning, Middle, End, or Random &mdash; from the new "Sample From" dropdown in Settings (thanks Charles/End for the idea!)</li>
+          <li><strong>Quick Re-extract</strong>: Press Cmd+Shift+R to instantly re-extract a sample from a random position in the same source &mdash; no dialog needed</li>
+          <li><strong>Open Settings shortcut</strong>: Press Cmd+, to quickly open the Settings panel</li>
+          <li>The Regenerate dialog now includes a "Sample From" option so you can pick extraction position per-sample</li>
+        </ul>
+        <h3>Improvements</h3>
+        <ul>
+          <li>Trim lines on sample cards now update in real-time as you drag handles in the waveform editor</li>
+          <li>Keyboard shortcuts (Cmd+Shift+R, Cmd+R, Cmd+I, Cmd+,) now work even when Musical Typing is open</li>
+          <li>Streamlined Tips &amp; Tricks help text</li>
+        </ul>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>Fixed crash when closing Musical Typing keyboard</li>
+          <li>Fixed Musical Typing window going black when reopened</li>
+          <li>Fixed installer failure on fresh installs</li>
+        </ul>
         <p class="source">Build 1201 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/bbf7e011">bbf7e011</a> on main</p>
       ]]></description>
       <sparkle:version>1201</sparkle:version>
