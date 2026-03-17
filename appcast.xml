@@ -28,13 +28,10 @@
           }
         </style>
         <h2>What's New in 0.5.141</h2>
-        <div><h3>Version 0.5.141</h3>
-
-<h4>📝 Changes</h4>
-<li>Support multi-select for Cmd+Shift+R random re-extract</li>
-
----
-<strong>Source:</strong> `8dae2d30` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/8dae2d30edd2504a66b26639a6e02766c7532397))</div>
+        <h3>Improvements</h3>
+        <ul>
+          <li><strong>Cmd+Shift+R now supports multiple selections</strong> &mdash; shift-select several samples, then Cmd+Shift+R to re-extract all of them from random positions in their original sources at once</li>
+        </ul>
         <p class="source">Build 1202 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/8dae2d30">8dae2d30</a> on main</p>
       ]]></description>
       <sparkle:version>1202</sparkle:version>
