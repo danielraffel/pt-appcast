@@ -28,14 +28,17 @@
           }
         </style>
         <h2>What's New in 0.5.145</h2>
-        <div><h3>Version 0.5.145</h3>
-
-<h4>✨ New Features</h4>
-<li>Add window position persistence, batch lock/unlock, and copyable sample info</li>
-<li>Add Windows build & publish workflow to CLAUDE.md</li>
-
----
-<strong>Source:</strong> `f1c5b2e0` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/f1c5b2e00198fe5fb670c1dbb755f097ea9c50de))</div>
+        <h3>New Features</h3>
+        <ul>
+          <li><strong>Copy sample info</strong>: Click any field in the Sample Info screen to copy its value — a green "Copied" confirmation appears next to the label</li>
+          <li><strong>Copy all metadata</strong>: New copy icon in the Sample Info header copies all metadata at once</li>
+          <li><strong>Batch lock/unlock</strong>: Select multiple sample cards, then Shift+click the lock icon to lock or unlock them all together</li>
+          <li><strong>Lock/Unlock in context menu</strong>: Right-click selected samples to see "Lock Selected" / "Unlock Selected" options</li>
+        </ul>
+        <h3>Improvements</h3>
+        <ul>
+          <li>The waveform editor window now remembers its last position when reopened</li>
+        </ul>
         <p class="source">Build 1206 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/f1c5b2e0">f1c5b2e0</a> on main</p>
       ]]></description>
       <sparkle:version>1206</sparkle:version>
