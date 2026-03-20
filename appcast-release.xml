@@ -5,7 +5,7 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.141</title>
+      <title>Version 0.5.145</title>
       <description><![CDATA[
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
@@ -27,21 +27,25 @@
             a { color: #0366d6; }
           }
         </style>
-        <h2>What's New in 0.5.141</h2>
-        <h3>Improvements</h3>
-        <ul>
-          <li><strong>Cmd+Shift+R now supports multiple selections</strong> &mdash; shift-select several samples, then Cmd+Shift+R to re-extract all of them from random positions in their original sources at once</li>
-        </ul>
-        <p class="source">Build 1202 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/8dae2d30">8dae2d30</a> on main</p>
+        <h2>What's New in 0.5.145</h2>
+        <div><h3>Version 0.5.145</h3>
+
+<h4>✨ New Features</h4>
+<li>Add window position persistence, batch lock/unlock, and copyable sample info</li>
+<li>Add Windows build & publish workflow to CLAUDE.md</li>
+
+---
+<strong>Source:</strong> `f1c5b2e0` on `main` ([view commit](https://github.com/danielraffel/PlunderTube/commit/f1c5b2e00198fe5fb670c1dbb755f097ea9c50de))</div>
+        <p class="source">Build 1206 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/f1c5b2e0">f1c5b2e0</a> on main</p>
       ]]></description>
-      <sparkle:version>1202</sparkle:version>
-      <sparkle:shortVersionString>0.5.141</sparkle:shortVersionString>
+      <sparkle:version>1206</sparkle:version>
+      <sparkle:shortVersionString>0.5.145</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Tue, 17 Mar 2026 15:36:25 -0700</pubDate>
+      <pubDate>Fri, 20 Mar 2026 13:09:11 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.141/PlunderTube_0.5.141.pkg"
-        sparkle:edSignature="gtKDjkrO9YMzD/8jBYozVxlcC4HGM5fVLi3WyyBb+Ex4vgENKt9IF9fp+xqgQEQJ+x9Njuft9Xy3uCD/xkVuDQ=="
-        length="167125313"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.145/PlunderTube_0.5.145.pkg"
+        sparkle:edSignature="rBMyMHI60taReILFA6vpM5kXJMsWm9uEuZkzGNPYRRF8cY1zKkUsM068dnVDbD1IVT2lAy1zOgWixVAa47J+BA=="
+        length="167145450"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
