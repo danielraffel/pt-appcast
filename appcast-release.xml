@@ -5,50 +5,25 @@
     <description>PlunderTube Updates - release channel</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.145</title>
+      <title>Version 0.5.147</title>
       <description><![CDATA[
-        <style>
-          body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.5; padding: 12px; }
-          h2 { font-size: 16px; margin: 0 0 12px 0; }
-          h3, h4 { font-size: 14px; margin: 12px 0 6px 0; }
-          li { margin: 4px 0; }
-          ul { padding-left: 20px; }
-          .source { margin-top: 16px; padding-top: 8px; font-size: 11px; }
-          @media (prefers-color-scheme: dark) {
-            body { color: #e0e0e0; background: #1a1a1a; }
-            h2, h3, h4 { color: #fff; }
-            .source { border-top: 1px solid #333; color: #888; }
-            a { color: #58a6ff; }
-          }
-          @media (prefers-color-scheme: light) {
-            body { color: #333; background: #fff; }
-            h2, h3, h4 { color: #111; }
-            .source { border-top: 1px solid #ddd; color: #999; }
-            a { color: #0366d6; }
-          }
-        </style>
-        <h2>What's New in 0.5.145</h2>
-        <h3>New Features</h3>
+        <h2>What's New in 0.5.147</h2>
+        <h3>Bug Fixes</h3>
         <ul>
-          <li><strong>Copy sample info</strong>: Click any field in the Sample Info screen to copy its value — a green "Copied" confirmation appears next to the label</li>
-          <li><strong>Copy all metadata</strong>: New copy icon in the Sample Info header copies all metadata at once</li>
-          <li><strong>Batch lock/unlock</strong>: Select multiple sample cards, then Shift+click the lock icon to lock or unlock them all together</li>
-          <li><strong>Lock/Unlock in context menu</strong>: Right-click selected samples to see "Lock Selected" / "Unlock Selected" options</li>
+          <li>Fixed Audio Unit sample downloads that could fail or remain stuck while downloading.</li>
+          <li>Fixed MIDI-triggered playback crackle caused by blocking downloader work in the audio path.</li>
+          <li>Improved bundled FFmpeg HTTPS certificate handling on macOS hosts.</li>
         </ul>
-        <h3>Improvements</h3>
-        <ul>
-          <li>The waveform editor window now remembers its last position when reopened</li>
-        </ul>
-        <p class="source">Build 1206 &middot; <a href="https://github.com/danielraffel/PlunderTube/commit/f1c5b2e0">f1c5b2e0</a> on main</p>
+        <p class="source">Build 1208 · <a href="https://github.com/danielraffel/PlunderTube/commit/bae16bf5">bae16bf5</a> on audio-crackle-fix-0.5.146</p>
       ]]></description>
-      <sparkle:version>1206</sparkle:version>
-      <sparkle:shortVersionString>0.5.145</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 20 Mar 2026 13:09:11 -0700</pubDate>
+      <sparkle:version>1208</sparkle:version>
+      <sparkle:shortVersionString>0.5.147</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Thu, 15 Oct 2026 11:05:03 -0700</pubDate>
       <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.145/PlunderTube_0.5.145.pkg"
-        sparkle:edSignature="rBMyMHI60taReILFA6vpM5kXJMsWm9uEuZkzGNPYRRF8cY1zKkUsM068dnVDbD1IVT2lAy1zOgWixVAa47J+BA=="
-        length="167145450"
+        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.147/PlunderTube_0.5.147.pkg"
+        sparkle:edSignature="mKgUEnyTWo/bs9OTr9kUE+KCfrXiYg/imqRFWzUWXGJjJz8D0Izi2xrLY3Zg+4vIqLk9uugDGpf6A7j45GSADw=="
+        length="224840871"
         type="application/octet-stream"
         sparkle:installationType="package" />
     </item>
