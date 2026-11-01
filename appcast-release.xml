@@ -9,17 +9,14 @@
       <description><![CDATA[
         <h2>What's New in 0.5.161</h2>
         <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed Sparkle updates for apps installed in protected locations such as /Applications.</li>
-          <li>Improved release validation to reject malformed bundles before publication.</li>
-        </ul>
+        <ul><li>Fixed Sparkle updates for apps installed in protected locations such as /Applications.</li><li>Improved release validation to reject malformed bundles before publication.</li></ul>
         <p class="source">Build 1222 · <a href="https://github.com/danielraffel/PlunderTube/commit/a03ad83e">a03ad83e</a></p>
       ]]></description>
       <sparkle:version>1222</sparkle:version>
       <sparkle:shortVersionString>0.5.161</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 31 Oct 2026 17:40:00 -0700</pubDate>
-      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.161/PlunderTube.0.5.161.app.zip" sparkle:edSignature="rTWXOV14AGi1bQnGcqlIS/Cf/2V9kqvLtuIIcPfexcAPJebpWQD1rTisJ+Ibhff923igGEPK8l2rowdIARLYBg==" length="12160650" type="application/octet-stream" />
+      <pubDate>Sat, 31 Oct 2026 17:45:00 -0700</pubDate>
+      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.161/PlunderTube.0.5.161.pkg" sparkle:edSignature="nxAIGlxROGkSAciaEJT/0K1JNgELALSLJlcKDJ1+0JuDILHUujqaXu7V49+P/ZvPFxWElmXX5CD1mQ8i1zLQAw==" length="12027782" type="application/octet-stream" sparkle:installationType="package" />
     </item>
   </channel>
 </rss>
