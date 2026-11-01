@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>PlunderTube</title>
-    <description>PlunderTube Updates - release channel</description>
-    <language>en</language>
+    <title>PlunderTube Updates</title>
     <item>
-      <title>Version 0.5.147</title>
-      <description><![CDATA[
-        <h2>What's New in 0.5.147</h2>
-        <h3>Bug Fixes</h3>
-        <ul>
-          <li>Fixed Audio Unit sample downloads that could fail or remain stuck while downloading.</li>
-          <li>Fixed MIDI-triggered playback crackle caused by blocking downloader work in the audio path.</li>
-          <li>Improved bundled FFmpeg HTTPS certificate handling on macOS hosts.</li>
-        </ul>
-        <p class="source">Build 1208 · <a href="https://github.com/danielraffel/PlunderTube/commit/bae16bf5">bae16bf5</a> on audio-crackle-fix-0.5.146</p>
-      ]]></description>
-      <sparkle:version>1208</sparkle:version>
-      <sparkle:shortVersionString>0.5.147</sparkle:shortVersionString>
+      <title>Version 0.5.168</title>
+      <pubDate>Sun, 01 Nov 2026 06:52:55 +0000</pubDate>
+      <sparkle:version>1229</sparkle:version>
+      <sparkle:shortVersionString>0.5.168</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 15 Oct 2026 11:05:03 -0700</pubDate>
-      <enclosure
-        url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.147/PlunderTube_0.5.147.pkg"
-        sparkle:edSignature="mKgUEnyTWo/bs9OTr9kUE+KCfrXiYg/imqRFWzUWXGJjJz8D0Izi2xrLY3Zg+4vIqLk9uugDGpf6A7j45GSADw=="
-        length="224840871"
-        type="application/octet-stream"
-        sparkle:installationType="package" />
+      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.168/PlunderTube.0.5.168.zip" length="38715583" type="application/octet-stream" sparkle:edSignature="KEIZpkPXAWPrLD6QEhtXyYCz9Uz+ZkrYF8CKyNuxThmOvbJnt3O+KhaixrmkfX+hNMRRdUJLaFgZUd0o0RlZCA==" />
+      <description><![CDATA[Updater verification build and macOS packaging reliability fixes.]]></description>
     </item>
   </channel>
 </rss>
