@@ -4,11 +4,11 @@
     <title>PlunderTube Updates</title>
     <item>
       <title>Version 0.5.168</title>
-      <pubDate>Sun, 01 Nov 2026 06:52:55 +0000</pubDate>
+      <pubDate>Sun, 01 Nov 2026 07:14:53 +0000</pubDate>
       <sparkle:version>1229</sparkle:version>
       <sparkle:shortVersionString>0.5.168</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.168/PlunderTube.0.5.168.zip" length="38715583" type="application/octet-stream" sparkle:edSignature="KEIZpkPXAWPrLD6QEhtXyYCz9Uz+ZkrYF8CKyNuxThmOvbJnt3O+KhaixrmkfX+hNMRRdUJLaFgZUd0o0RlZCA==" />
+      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.168/PlunderTube.0.5.168.zip" length="38715550" type="application/octet-stream" sparkle:edSignature="DrsX5Z9L5phJlpMRQMrDgoTI/x2KPruX0MbZcWhkzXpL7F4zywmd2umeceZQCGfdMbzkBHWfAhzsBVivVzCrCw==" />
       <description><![CDATA[Updater verification build and macOS packaging reliability fixes.]]></description>
     </item>
   </channel>
