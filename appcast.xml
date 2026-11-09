@@ -5,14 +5,14 @@
     <description>PlunderTube Updates</description>
     <language>en</language>
     <item>
-      <title>Version 0.5.174</title>
+      <title>Version 0.5.175</title>
       
-      <pubDate>Mon, 09 Nov 2026 00:36:29 +0000</pubDate>
-      <sparkle:version>1235</sparkle:version>
-      <sparkle:shortVersionString>0.5.174</sparkle:shortVersionString>
+      <pubDate>Mon, 09 Nov 2026 01:24:08 +0000</pubDate>
+      <sparkle:version>1236</sparkle:version>
+      <sparkle:shortVersionString>0.5.175</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.174/PlunderTube.0.5.174.zip" length="13556164" type="application/octet-stream" sparkle:edSignature="7Kwrzh+ekoWN94j46ofq4NU99tfHrtJ1aHuzj28CB7W/oWC6V2btSjWmaqmYVqHPva8J9+jxPkW8yAiVF0O2Cg=="/>
-      <description><![CDATA[<h2>What&#x27;s New in 0.5.174</h2><h3>New Features</h3><ul><li>Freesound search and downloads now work on Windows with your Freesound API key, just like on macOS.</li></ul><h3>Improvements</h3><ul><li>Windows updates are now checked with a digital signature before they install.</li><li>Copy Info in Settings now reports the correct operating system.</li></ul><h3>Bug Fixes</h3><ul><li>A missing or rejected Freesound API key now fails right away with a clear message instead of waiting for downloads to time out.</li><li>The macOS DMG download is much smaller because it no longer includes older installer packages.</li></ul>]]></description>
+      <enclosure url="https://github.com/danielraffel/pt-releases/releases/download/v0.5.175/PlunderTube.0.5.175.zip" length="13556024" type="application/octet-stream" sparkle:edSignature="DOWVtxit6URU8N5xpiSLBugIOQNtshZ/9Zs75Miqb3tCP4ji2XRHY5mn74Bez4cHyMD74eaWbH8gwX4UdgeZCA=="/>
+      <description><![CDATA[<h2>What&#x27;s New in 0.5.175</h2><h3>Bug Fixes</h3><ul><li>Windows updates now install reliably while PlunderTube is open; the installer closes the app first and keeps your samples and settings.</li><li>View Licenses in Settings now opens on Windows.</li></ul>]]></description>
     </item>
   </channel>
 </rss>
